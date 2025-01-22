@@ -1,0 +1,4211 @@
+{
+  "C:/mycode/projects/banc/banc-ui/cypress.config.ts": {
+    "path": "C:/mycode/projects/banc/banc-ui/cypress.config.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/mycode/projects/banc/banc-ui/src/polyfills.ts": {
+    "path": "C:/mycode/projects/banc/banc-ui/src/polyfills.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/mycode/projects/banc/banc-ui/src/app/app-routing.module.ts": {
+    "path": "C:/mycode/projects/banc/banc-ui/src/app/app-routing.module.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/mycode/projects/banc/banc-ui/src/app/app.component.ts": {
+    "path": "C:/mycode/projects/banc/banc-ui/src/app/app.component.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/mycode/projects/banc/banc-ui/src/app/app.module.ts": {
+    "path": "C:/mycode/projects/banc/banc-ui/src/app/app.module.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/mycode/projects/banc/banc-ui/src/environments/environment.prod.ts": {
+    "path": "C:/mycode/projects/banc/banc-ui/src/environments/environment.prod.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/mycode/projects/banc/banc-ui/src/environments/environment.ts": {
+    "path": "C:/mycode/projects/banc/banc-ui/src/environments/environment.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/mycode/projects/banc/banc-ui/src/app/models/user.model.ts": {
+    "path": "C:/mycode/projects/banc/banc-ui/src/app/models/user.model.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/mycode/projects/banc/banc-ui/src/app/modules/non-authenticated/non-authenticated-routing.module.ts": {
+    "path": "C:/mycode/projects/banc/banc-ui/src/app/modules/non-authenticated/non-authenticated-routing.module.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/mycode/projects/banc/banc-ui/src/app/modules/non-authenticated/non-authenticated.module.ts": {
+    "path": "C:/mycode/projects/banc/banc-ui/src/app/modules/non-authenticated/non-authenticated.module.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/mycode/projects/banc/banc-ui/src/app/modules/non-authenticated/services/cognito.service.ts": {
+    "path": "C:/mycode/projects/banc/banc-ui/src/app/modules/non-authenticated/services/cognito.service.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/mycode/projects/banc/banc-ui/src/app/modules/non-authenticated/services/token.service.ts": {
+    "path": "C:/mycode/projects/banc/banc-ui/src/app/modules/non-authenticated/services/token.service.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:/mycode/projects/banc/banc-ui/src/app/modules/non-authenticated/components/login/login.component.ts": {
+    "path": "C:/mycode/projects/banc/banc-ui/src/app/modules/non-authenticated/components/login/login.component.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "C:\\mycode\\projects\\banc\\banc-ui\\src\\polyfills.ts": {
+    "path": "C:\\mycode\\projects\\banc\\banc-ui\\src\\polyfills.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 1,
+          "column": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 23
+        }
+      },
+      "1": {
+        "start": {
+          "line": 2,
+          "column": 0
+        },
+        "end": {
+          "line": 6,
+          "column": 2
+        }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": {
+      "0": 4,
+      "1": 4
+    },
+    "f": {},
+    "b": {},
+    "inputSourceMap": {
+      "version": 3,
+      "names": [
+        "window",
+        "global",
+        "process",
+        "env",
+        "DEBUG",
+        "undefined"
+      ],
+      "sources": [
+        "C:\\mycode\\projects\\banc\\banc-ui\\src\\polyfills.ts"
+      ],
+      "sourcesContent": [
+        "(window as any).global = window;\r\n(window as any).process = {\r\n  env: { DEBUG: undefined },\r\n};\r\n/**\r\n * This file includes polyfills needed by Angular and is loaded before the app.\r\n * You can add your own extra polyfills to this file.\r\n *\r\n * This file is divided into 2 sections:\r\n *   1. Browser polyfills. These are applied before loading ZoneJS and are sorted by browsers.\r\n *   2. Application imports. Files imported after ZoneJS that should be loaded before your main\r\n *      file.\r\n *\r\n * The current setup is for so-called \"evergreen\" browsers; the last versions of browsers that\r\n * automatically update themselves. This includes recent versions of Safari, Chrome (including\r\n * Opera), Edge on the desktop, and iOS and Chrome on mobile.\r\n *\r\n * Learn more in https://angular.io/guide/browser-support\r\n */\r\n\r\n/***************************************************************************************************\r\n * BROWSER POLYFILLS\r\n */\r\n\r\n/**\r\n * By default, zone.js will patch all possible macroTask and DomEvents\r\n * user can disable parts of macroTask/DomEvents patch by setting following flags\r\n * because those flags need to be set before `zone.js` being loaded, and webpack\r\n * will put import in the top of bundle, so user need to create a separate file\r\n * in this directory (for example: zone-flags.ts), and put the following flags\r\n * into that file, and then add the following code before importing zone.js.\r\n * import './zone-flags';\r\n *\r\n * The flags allowed in zone-flags.ts are listed here.\r\n *\r\n * The following flags will work for all browsers.\r\n *\r\n * (window as any).__Zone_disable_requestAnimationFrame = true; // disable patch requestAnimationFrame\r\n * (window as any).__Zone_disable_on_property = true; // disable patch onProperty such as onclick\r\n * (window as any).__zone_symbol__UNPATCHED_EVENTS = ['scroll', 'mousemove']; // disable patch specified eventNames\r\n *\r\n *  in IE/Edge developer tools, the addEventListener will also be wrapped by zone.js\r\n *  with the following flag, it will bypass `zone.js` patch for IE/Edge\r\n *\r\n *  (window as any).__Zone_enable_cross_context_check = true;\r\n *\r\n */\r\n\r\n/***************************************************************************************************\r\n * Zone JS is required by default for Angular itself.\r\n */\r\nimport 'zone.js';  // Included with Angular CLI.\r\n\r\n\r\n/***************************************************************************************************\r\n * APPLICATION IMPORTS\r\n */\r\nimport 'core-js/es/typed-array';\r\nimport 'core-js/es/object';\r\n\r\n"
+      ],
+      "mappings": "AAACA,MAAc,CAACC,MAAM,GAAGD,MAAM;AAC9BA,MAAc,CAACE,OAAO,GAAG;EACxBC,GAAG,EAAE;IAAEC,KAAK,EAAEC;EAAS;CACxB;AACD;;;;;;;;;;;;;;;AAgBA;;;AAIA;;;;;;;;;;;;;;;;;;;;;;;AAwBA;;;AAGA,OAAO,SAAS,CAAC,CAAE;AAGnB;;;AAGA,OAAO,wBAAwB;AAC/B,OAAO,mBAAmB",
+      "ignoreList": []
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "99a516484b888c3e409202e75a9e119f3f7d1a25"
+  },
+  "C:\\mycode\\projects\\banc\\banc-ui\\src\\app\\app-routing.module.ts": {
+    "path": "C:\\mycode\\projects\\banc\\banc-ui\\src\\app\\app-routing.module.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 4,
+          "column": 15
+        },
+        "end": {
+          "line": 7,
+          "column": 2
+        }
+      },
+      "1": {
+        "start": {
+          "line": 6,
+          "column": 22
+        },
+        "end": {
+          "line": 6,
+          "column": 120
+        }
+      },
+      "2": {
+        "start": {
+          "line": 6,
+          "column": 95
+        },
+        "end": {
+          "line": 6,
+          "column": 119
+        }
+      },
+      "3": {
+        "start": {
+          "line": 8,
+          "column": 43
+        },
+        "end": {
+          "line": 27,
+          "column": 4
+        }
+      },
+      "4": {
+        "start": {
+          "line": 11,
+          "column": 6
+        },
+        "end": {
+          "line": 13,
+          "column": 8
+        }
+      },
+      "5": {
+        "start": {
+          "line": 12,
+          "column": 8
+        },
+        "end": {
+          "line": 12,
+          "column": 45
+        }
+      },
+      "6": {
+        "start": {
+          "line": 16,
+          "column": 6
+        },
+        "end": {
+          "line": 18,
+          "column": 9
+        }
+      },
+      "7": {
+        "start": {
+          "line": 21,
+          "column": 6
+        },
+        "end": {
+          "line": 23,
+          "column": 9
+        }
+      },
+      "8": {
+        "start": {
+          "line": 26,
+          "column": 2
+        },
+        "end": {
+          "line": 26,
+          "column": 26
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 6,
+            "column": 16
+          },
+          "end": {
+            "line": 6,
+            "column": 17
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 22
+          },
+          "end": {
+            "line": 6,
+            "column": 120
+          }
+        },
+        "line": 6
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 6,
+            "column": 90
+          },
+          "end": {
+            "line": 6,
+            "column": 91
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 95
+          },
+          "end": {
+            "line": 6,
+            "column": 119
+          }
+        },
+        "line": 6
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 8,
+            "column": 44
+          },
+          "end": {
+            "line": 8,
+            "column": 45
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 50
+          },
+          "end": {
+            "line": 27,
+            "column": 1
+          }
+        },
+        "line": 8
+      },
+      "3": {
+        "name": "AppRoutingModule_Factory",
+        "decl": {
+          "start": {
+            "line": 11,
+            "column": 27
+          },
+          "end": {
+            "line": 11,
+            "column": 51
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 55
+          },
+          "end": {
+            "line": 13,
+            "column": 7
+          }
+        },
+        "line": 11
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 20
+          },
+          "end": {
+            "line": 12,
+            "column": 41
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 12,
+              "column": 20
+            },
+            "end": {
+              "line": 12,
+              "column": 21
+            }
+          },
+          {
+            "start": {
+              "line": 12,
+              "column": 25
+            },
+            "end": {
+              "line": 12,
+              "column": 41
+            }
+          }
+        ],
+        "line": 12
+      }
+    },
+    "s": {
+      "0": 4,
+      "1": 4,
+      "2": 4,
+      "3": 4,
+      "4": 4,
+      "5": 4,
+      "6": 4,
+      "7": 4,
+      "8": 4
+    },
+    "f": {
+      "0": 4,
+      "1": 4,
+      "2": 4,
+      "3": 4
+    },
+    "b": {
+      "0": [
+        4,
+        4
+      ]
+    },
+    "inputSourceMap": {
+      "version": 3,
+      "names": [
+        "RouterModule",
+        "routes",
+        "path",
+        "loadChildren",
+        "then",
+        "m",
+        "NonAuthenticatedModule",
+        "AppRoutingModule",
+        "forRoot"
+      ],
+      "sources": [
+        "C:\\mycode\\projects\\banc\\banc-ui\\src\\app\\app-routing.module.ts"
+      ],
+      "sourcesContent": [
+        "import { NgModule } from '@angular/core';\nimport { RouterModule, Routes } from '@angular/router';\n\nconst routes: Routes = [\n  {\n    path: '',\n    loadChildren: () => import(\"./modules/non-authenticated/non-authenticated.module\").then(m => m.NonAuthenticatedModule)\n  }\n];\n\n@NgModule({\n  imports: [RouterModule.forRoot(routes)],\n  exports: [RouterModule]\n})\nexport class AppRoutingModule { }\n"
+      ],
+      "mappings": "AACA,SAASA,YAAY,QAAgB,iBAAiB;;;AAEtD,MAAMC,MAAM,GAAW,CACrB;EACEC,IAAI,EAAE,EAAE;EACRC,YAAY,EAAEA,CAAA,KAAM,MAAM,CAAC,sDAAsD,CAAC,CAACC,IAAI,CAACC,CAAC,IAAIA,CAAC,CAACC,sBAAsB;CACtH,CACF;AAMD,WAAaC,gBAAgB;EAAvB,MAAOA,gBAAgB;;;yBAAhBA,gBAAgB;MAAA;IAAA;;;cAAhBA;MAAgB;IAAA;;;kBAHjBP,YAAY,CAACQ,OAAO,CAACP,MAAM,CAAC,EAC5BD,YAAY;MAAA;IAAA;;SAEXO,gBAAgB;AAAA",
+      "ignoreList": []
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "73b72a3a38e4a7203b357c6c5958f8ae9e8da072"
+  },
+  "C:\\mycode\\projects\\banc\\banc-ui\\src\\app\\app.component.ts": {
+    "path": "C:\\mycode\\projects\\banc\\banc-ui\\src\\app\\app.component.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 3,
+          "column": 39
+        },
+        "end": {
+          "line": 29,
+          "column": 4
+        }
+      },
+      "1": {
+        "start": {
+          "line": 6,
+          "column": 6
+        },
+        "end": {
+          "line": 6,
+          "column": 29
+        }
+      },
+      "2": {
+        "start": {
+          "line": 9,
+          "column": 6
+        },
+        "end": {
+          "line": 11,
+          "column": 8
+        }
+      },
+      "3": {
+        "start": {
+          "line": 10,
+          "column": 8
+        },
+        "end": {
+          "line": 10,
+          "column": 41
+        }
+      },
+      "4": {
+        "start": {
+          "line": 14,
+          "column": 6
+        },
+        "end": {
+          "line": 25,
+          "column": 9
+        }
+      },
+      "5": {
+        "start": {
+          "line": 20,
+          "column": 10
+        },
+        "end": {
+          "line": 22,
+          "column": 11
+        }
+      },
+      "6": {
+        "start": {
+          "line": 21,
+          "column": 12
+        },
+        "end": {
+          "line": 21,
+          "column": 45
+        }
+      },
+      "7": {
+        "start": {
+          "line": 28,
+          "column": 2
+        },
+        "end": {
+          "line": 28,
+          "column": 22
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 3,
+            "column": 40
+          },
+          "end": {
+            "line": 3,
+            "column": 41
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 46
+          },
+          "end": {
+            "line": 29,
+            "column": 1
+          }
+        },
+        "line": 3
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 5,
+            "column": 4
+          },
+          "end": {
+            "line": 5,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 18
+          },
+          "end": {
+            "line": 7,
+            "column": 5
+          }
+        },
+        "line": 5
+      },
+      "2": {
+        "name": "AppComponent_Factory",
+        "decl": {
+          "start": {
+            "line": 9,
+            "column": 27
+          },
+          "end": {
+            "line": 9,
+            "column": 47
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 51
+          },
+          "end": {
+            "line": 11,
+            "column": 7
+          }
+        },
+        "line": 9
+      },
+      "3": {
+        "name": "AppComponent_Template",
+        "decl": {
+          "start": {
+            "line": 19,
+            "column": 27
+          },
+          "end": {
+            "line": 19,
+            "column": 48
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 19,
+            "column": 58
+          },
+          "end": {
+            "line": 23,
+            "column": 9
+          }
+        },
+        "line": 19
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 20
+          },
+          "end": {
+            "line": 10,
+            "column": 37
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 10,
+              "column": 20
+            },
+            "end": {
+              "line": 10,
+              "column": 21
+            }
+          },
+          {
+            "start": {
+              "line": 10,
+              "column": 25
+            },
+            "end": {
+              "line": 10,
+              "column": 37
+            }
+          }
+        ],
+        "line": 10
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 20,
+            "column": 10
+          },
+          "end": {
+            "line": 22,
+            "column": 11
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 20,
+              "column": 10
+            },
+            "end": {
+              "line": 22,
+              "column": 11
+            }
+          },
+          {
+            "start": {
+              "line": 20,
+              "column": 10
+            },
+            "end": {
+              "line": 22,
+              "column": 11
+            }
+          }
+        ],
+        "line": 20
+      }
+    },
+    "s": {
+      "0": 4,
+      "1": 4,
+      "2": 4,
+      "3": 4,
+      "4": 4,
+      "5": 67,
+      "6": 4,
+      "7": 4
+    },
+    "f": {
+      "0": 4,
+      "1": 4,
+      "2": 4,
+      "3": 67
+    },
+    "b": {
+      "0": [
+        4,
+        4
+      ],
+      "1": [
+        4,
+        63
+      ]
+    },
+    "inputSourceMap": {
+      "version": 3,
+      "names": [
+        "AppComponent",
+        "constructor",
+        "title",
+        "selectors",
+        "decls",
+        "vars",
+        "template",
+        "AppComponent_Template",
+        "rf",
+        "ctx",
+        "i0",
+        "ɵɵelement"
+      ],
+      "sources": [
+        "C:\\mycode\\projects\\banc\\banc-ui\\src\\app\\app.component.ts",
+        "C:\\mycode\\projects\\banc\\banc-ui\\src\\app\\app.component.html"
+      ],
+      "sourcesContent": [
+        "import { Component } from '@angular/core';\n\n@Component({\n  selector: 'app-root',\n  templateUrl: './app.component.html',\n  styleUrls: ['./app.component.scss']\n})\nexport class AppComponent {\n  title = 'banc-ui';\n}\n",
+        "<router-outlet/>\n"
+      ],
+      "mappings": ";;AAOA,WAAaA,YAAY;EAAnB,MAAOA,YAAY;IALzBC,YAAA;MAME,KAAAC,KAAK,GAAG,SAAS;;;;yBADNF,YAAY;MAAA;IAAA;;;cAAZA,YAAY;QAAAG,SAAA;QAAAC,KAAA;QAAAC,IAAA;QAAAC,QAAA,WAAAC,sBAAAC,EAAA,EAAAC,GAAA;UAAA,IAAAD,EAAA;YCPzBE,EAAA,CAAAC,SAAA,oBAAgB;;;;;;;SDOHX,YAAY;AAAA",
+      "ignoreList": []
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "7831fe9bf4b755309d4c1072aa1189883978af8b"
+  },
+  "C:\\mycode\\projects\\banc\\banc-ui\\src\\app\\modules\\non-authenticated\\services\\token.service.ts": {
+    "path": "C:\\mycode\\projects\\banc\\banc-ui\\src\\app\\modules\\non-authenticated\\services\\token.service.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 2,
+          "column": 39
+        },
+        "end": {
+          "line": 38,
+          "column": 4
+        }
+      },
+      "1": {
+        "start": {
+          "line": 5,
+          "column": 6
+        },
+        "end": {
+          "line": 5,
+          "column": 29
+        }
+      },
+      "2": {
+        "start": {
+          "line": 6,
+          "column": 6
+        },
+        "end": {
+          "line": 6,
+          "column": 30
+        }
+      },
+      "3": {
+        "start": {
+          "line": 9,
+          "column": 6
+        },
+        "end": {
+          "line": 9,
+          "column": 38
+        }
+      },
+      "4": {
+        "start": {
+          "line": 10,
+          "column": 6
+        },
+        "end": {
+          "line": 10,
+          "column": 40
+        }
+      },
+      "5": {
+        "start": {
+          "line": 11,
+          "column": 6
+        },
+        "end": {
+          "line": 11,
+          "column": 61
+        }
+      },
+      "6": {
+        "start": {
+          "line": 12,
+          "column": 6
+        },
+        "end": {
+          "line": 12,
+          "column": 63
+        }
+      },
+      "7": {
+        "start": {
+          "line": 15,
+          "column": 6
+        },
+        "end": {
+          "line": 15,
+          "column": 31
+        }
+      },
+      "8": {
+        "start": {
+          "line": 18,
+          "column": 6
+        },
+        "end": {
+          "line": 18,
+          "column": 32
+        }
+      },
+      "9": {
+        "start": {
+          "line": 21,
+          "column": 6
+        },
+        "end": {
+          "line": 21,
+          "column": 45
+        }
+      },
+      "10": {
+        "start": {
+          "line": 22,
+          "column": 6
+        },
+        "end": {
+          "line": 22,
+          "column": 46
+        }
+      },
+      "11": {
+        "start": {
+          "line": 25,
+          "column": 6
+        },
+        "end": {
+          "line": 27,
+          "column": 8
+        }
+      },
+      "12": {
+        "start": {
+          "line": 26,
+          "column": 8
+        },
+        "end": {
+          "line": 26,
+          "column": 41
+        }
+      },
+      "13": {
+        "start": {
+          "line": 30,
+          "column": 6
+        },
+        "end": {
+          "line": 34,
+          "column": 9
+        }
+      },
+      "14": {
+        "start": {
+          "line": 37,
+          "column": 2
+        },
+        "end": {
+          "line": 37,
+          "column": 22
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 2,
+            "column": 40
+          },
+          "end": {
+            "line": 2,
+            "column": 41
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 46
+          },
+          "end": {
+            "line": 38,
+            "column": 1
+          }
+        },
+        "line": 2
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 4,
+            "column": 4
+          },
+          "end": {
+            "line": 4,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 18
+          },
+          "end": {
+            "line": 7,
+            "column": 5
+          }
+        },
+        "line": 4
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 8,
+            "column": 4
+          },
+          "end": {
+            "line": 8,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 41
+          },
+          "end": {
+            "line": 13,
+            "column": 5
+          }
+        },
+        "line": 8
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 14,
+            "column": 4
+          },
+          "end": {
+            "line": 14,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 22
+          },
+          "end": {
+            "line": 16,
+            "column": 5
+          }
+        },
+        "line": 14
+      },
+      "4": {
+        "name": "(anonymous_4)",
+        "decl": {
+          "start": {
+            "line": 17,
+            "column": 4
+          },
+          "end": {
+            "line": 17,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 17,
+            "column": 23
+          },
+          "end": {
+            "line": 19,
+            "column": 5
+          }
+        },
+        "line": 17
+      },
+      "5": {
+        "name": "(anonymous_5)",
+        "decl": {
+          "start": {
+            "line": 20,
+            "column": 4
+          },
+          "end": {
+            "line": 20,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 20,
+            "column": 18
+          },
+          "end": {
+            "line": 23,
+            "column": 5
+          }
+        },
+        "line": 20
+      },
+      "6": {
+        "name": "TokenService_Factory",
+        "decl": {
+          "start": {
+            "line": 25,
+            "column": 27
+          },
+          "end": {
+            "line": 25,
+            "column": 47
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 25,
+            "column": 51
+          },
+          "end": {
+            "line": 27,
+            "column": 7
+          }
+        },
+        "line": 25
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 26,
+            "column": 20
+          },
+          "end": {
+            "line": 26,
+            "column": 37
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 26,
+              "column": 20
+            },
+            "end": {
+              "line": 26,
+              "column": 21
+            }
+          },
+          {
+            "start": {
+              "line": 26,
+              "column": 25
+            },
+            "end": {
+              "line": 26,
+              "column": 37
+            }
+          }
+        ],
+        "line": 26
+      }
+    },
+    "s": {
+      "0": 4,
+      "1": 4,
+      "2": 4,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 0,
+      "9": 0,
+      "10": 0,
+      "11": 4,
+      "12": 4,
+      "13": 4,
+      "14": 4
+    },
+    "f": {
+      "0": 4,
+      "1": 4,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 4
+    },
+    "b": {
+      "0": [
+        4,
+        4
+      ]
+    },
+    "inputSourceMap": {
+      "version": 3,
+      "names": [
+        "TokenService",
+        "constructor",
+        "_accessToken",
+        "_refreshToken",
+        "setTokens",
+        "accessToken",
+        "refreshToken",
+        "localStorage",
+        "setItem",
+        "clearTokens",
+        "removeItem",
+        "factory",
+        "ɵfac",
+        "providedIn"
+      ],
+      "sources": [
+        "C:\\mycode\\projects\\banc\\banc-ui\\src\\app\\modules\\non-authenticated\\services\\token.service.ts"
+      ],
+      "sourcesContent": [
+        "import { Injectable } from '@angular/core';\n\n@Injectable({\n  providedIn: 'root'\n})\nexport class TokenService {\n\n  private _accessToken: string = '';\n  private _refreshToken: string = '';\n\n  setTokens(accessToken: string, refreshToken: string): void {\n    this._accessToken = accessToken;\n    this._refreshToken = refreshToken;\n    localStorage.setItem('accessToken', this._accessToken);\n    localStorage.setItem('refreshToken', this._refreshToken);\n  }\n\n  get accessToken(): string {\n    return this._accessToken;\n  }\n\n  get refreshToken(): string {\n    return this._refreshToken;\n  }\n\n  clearTokens(): void {\n    localStorage.removeItem('accessToken');\n    localStorage.removeItem('refreshToken');\n  }\n}\n"
+      ],
+      "mappings": ";AAKA,WAAaA,YAAY;EAAnB,MAAOA,YAAY;IAHzBC,YAAA;MAKU,KAAAC,YAAY,GAAW,EAAE;MACzB,KAAAC,aAAa,GAAW,EAAE;;IAElCC,SAASA,CAACC,WAAmB,EAAEC,YAAoB;MACjD,IAAI,CAACJ,YAAY,GAAGG,WAAW;MAC/B,IAAI,CAACF,aAAa,GAAGG,YAAY;MACjCC,YAAY,CAACC,OAAO,CAAC,aAAa,EAAE,IAAI,CAACN,YAAY,CAAC;MACtDK,YAAY,CAACC,OAAO,CAAC,cAAc,EAAE,IAAI,CAACL,aAAa,CAAC;IAC1D;IAEA,IAAIE,WAAWA,CAAA;MACb,OAAO,IAAI,CAACH,YAAY;IAC1B;IAEA,IAAII,YAAYA,CAAA;MACd,OAAO,IAAI,CAACH,aAAa;IAC3B;IAEAM,WAAWA,CAAA;MACTF,YAAY,CAACG,UAAU,CAAC,aAAa,CAAC;MACtCH,YAAY,CAACG,UAAU,CAAC,cAAc,CAAC;IACzC;;;yBAvBWV,YAAY;MAAA;IAAA;;;eAAZA,YAAY;QAAAW,OAAA,EAAZX,YAAY,CAAAY,IAAA;QAAAC,UAAA,EAFX;MAAM;IAAA;;SAEPb,YAAY;AAAA",
+      "ignoreList": []
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "ad30b0f0a8a28b9cb53b6fa18fd32dae2c975ad8"
+  },
+  "C:\\mycode\\projects\\banc\\banc-ui\\src\\app\\modules\\non-authenticated\\services\\cognito.service.ts": {
+    "path": "C:\\mycode\\projects\\banc\\banc-ui\\src\\app\\modules\\non-authenticated\\services\\cognito.service.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 3,
+          "column": 41
+        },
+        "end": {
+          "line": 28,
+          "column": 4
+        }
+      },
+      "1": {
+        "start": {
+          "line": 6,
+          "column": 6
+        },
+        "end": {
+          "line": 6,
+          "column": 52
+        }
+      },
+      "2": {
+        "start": {
+          "line": 9,
+          "column": 6
+        },
+        "end": {
+          "line": 9,
+          "column": 54
+        }
+      },
+      "3": {
+        "start": {
+          "line": 12,
+          "column": 6
+        },
+        "end": {
+          "line": 12,
+          "column": 28
+        }
+      },
+      "4": {
+        "start": {
+          "line": 15,
+          "column": 6
+        },
+        "end": {
+          "line": 17,
+          "column": 8
+        }
+      },
+      "5": {
+        "start": {
+          "line": 16,
+          "column": 8
+        },
+        "end": {
+          "line": 16,
+          "column": 43
+        }
+      },
+      "6": {
+        "start": {
+          "line": 20,
+          "column": 6
+        },
+        "end": {
+          "line": 24,
+          "column": 9
+        }
+      },
+      "7": {
+        "start": {
+          "line": 27,
+          "column": 2
+        },
+        "end": {
+          "line": 27,
+          "column": 24
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 3,
+            "column": 42
+          },
+          "end": {
+            "line": 3,
+            "column": 43
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 48
+          },
+          "end": {
+            "line": 28,
+            "column": 1
+          }
+        },
+        "line": 3
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 5,
+            "column": 4
+          },
+          "end": {
+            "line": 5,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 17
+          },
+          "end": {
+            "line": 7,
+            "column": 5
+          }
+        },
+        "line": 5
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 8,
+            "column": 4
+          },
+          "end": {
+            "line": 8,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 39
+          },
+          "end": {
+            "line": 10,
+            "column": 5
+          }
+        },
+        "line": 8
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 11,
+            "column": 4
+          },
+          "end": {
+            "line": 11,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 14
+          },
+          "end": {
+            "line": 13,
+            "column": 5
+          }
+        },
+        "line": 11
+      },
+      "4": {
+        "name": "CognitoService_Factory",
+        "decl": {
+          "start": {
+            "line": 15,
+            "column": 27
+          },
+          "end": {
+            "line": 15,
+            "column": 49
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 53
+          },
+          "end": {
+            "line": 17,
+            "column": 7
+          }
+        },
+        "line": 15
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 20
+          },
+          "end": {
+            "line": 16,
+            "column": 39
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 16,
+              "column": 20
+            },
+            "end": {
+              "line": 16,
+              "column": 21
+            }
+          },
+          {
+            "start": {
+              "line": 16,
+              "column": 25
+            },
+            "end": {
+              "line": 16,
+              "column": 39
+            }
+          }
+        ],
+        "line": 16
+      }
+    },
+    "s": {
+      "0": 4,
+      "1": 3,
+      "2": 0,
+      "3": 0,
+      "4": 4,
+      "5": 4,
+      "6": 4,
+      "7": 4
+    },
+    "f": {
+      "0": 4,
+      "1": 3,
+      "2": 0,
+      "3": 0,
+      "4": 4
+    },
+    "b": {
+      "0": [
+        4,
+        4
+      ]
+    },
+    "inputSourceMap": {
+      "version": 3,
+      "names": [
+        "Auth",
+        "CognitoService",
+        "signIn",
+        "user",
+        "email",
+        "password",
+        "confirmNewPassword",
+        "completeNewPassword",
+        "signOut",
+        "factory",
+        "ɵfac",
+        "providedIn"
+      ],
+      "sources": [
+        "C:\\mycode\\projects\\banc\\banc-ui\\src\\app\\modules\\non-authenticated\\services\\cognito.service.ts"
+      ],
+      "sourcesContent": [
+        "import {Injectable} from '@angular/core';\nimport {User} from \"../../../models/user.model\";\nimport {Auth} from \"aws-amplify\";\nimport {CognitoUser} from \"amazon-cognito-identity-js\";\n\n@Injectable({\n  providedIn: 'root'\n})\nexport class CognitoService {\n\n  public signIn(user: User): Promise<CognitoUser> {\n    return Auth.signIn(user.email, user.password);\n  }\n\n  public confirmNewPassword(user: CognitoUser, password: string): Promise<CognitoUser> {\n    return Auth.completeNewPassword(user, password);\n  }\n\n  public signOut(): Promise<any> {\n    return Auth.signOut();\n  }\n}\n"
+      ],
+      "mappings": "AAEA,SAAQA,IAAI,QAAO,aAAa;;AAMhC,WAAaC,cAAc;EAArB,MAAOA,cAAc;IAElBC,MAAMA,CAACC,IAAU;MACtB,OAAOH,IAAI,CAACE,MAAM,CAACC,IAAI,CAACC,KAAK,EAAED,IAAI,CAACE,QAAQ,CAAC;IAC/C;IAEOC,kBAAkBA,CAACH,IAAiB,EAAEE,QAAgB;MAC3D,OAAOL,IAAI,CAACO,mBAAmB,CAACJ,IAAI,EAAEE,QAAQ,CAAC;IACjD;IAEOG,OAAOA,CAAA;MACZ,OAAOR,IAAI,CAACQ,OAAO,EAAE;IACvB;;;yBAZWP,cAAc;MAAA;IAAA;;;eAAdA,cAAc;QAAAQ,OAAA,EAAdR,cAAc,CAAAS,IAAA;QAAAC,UAAA,EAFb;MAAM;IAAA;;SAEPV,cAAc;AAAA",
+      "ignoreList": []
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "ff3904089c39d46656e5a8adaf00bcdcf543cf4b"
+  },
+  "C:\\mycode\\projects\\banc\\banc-ui\\src\\app\\modules\\non-authenticated\\components\\login\\login.component.ts": {
+    "path": "C:\\mycode\\projects\\banc\\banc-ui\\src\\app\\modules\\non-authenticated\\components\\login\\login.component.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 13,
+          "column": 41
+        },
+        "end": {
+          "line": 137,
+          "column": 4
+        }
+      },
+      "1": {
+        "start": {
+          "line": 16,
+          "column": 6
+        },
+        "end": {
+          "line": 16,
+          "column": 19
+        }
+      },
+      "2": {
+        "start": {
+          "line": 17,
+          "column": 6
+        },
+        "end": {
+          "line": 17,
+          "column": 39
+        }
+      },
+      "3": {
+        "start": {
+          "line": 18,
+          "column": 6
+        },
+        "end": {
+          "line": 18,
+          "column": 43
+        }
+      },
+      "4": {
+        "start": {
+          "line": 19,
+          "column": 6
+        },
+        "end": {
+          "line": 19,
+          "column": 33
+        }
+      },
+      "5": {
+        "start": {
+          "line": 20,
+          "column": 6
+        },
+        "end": {
+          "line": 20,
+          "column": 29
+        }
+      },
+      "6": {
+        "start": {
+          "line": 23,
+          "column": 6
+        },
+        "end": {
+          "line": 26,
+          "column": 9
+        }
+      },
+      "7": {
+        "start": {
+          "line": 29,
+          "column": 30
+        },
+        "end": {
+          "line": 29,
+          "column": 57
+        }
+      },
+      "8": {
+        "start": {
+          "line": 30,
+          "column": 6
+        },
+        "end": {
+          "line": 34,
+          "column": 7
+        }
+      },
+      "9": {
+        "start": {
+          "line": 31,
+          "column": 8
+        },
+        "end": {
+          "line": 31,
+          "column": 23
+        }
+      },
+      "10": {
+        "start": {
+          "line": 32,
+          "column": 13
+        },
+        "end": {
+          "line": 34,
+          "column": 7
+        }
+      },
+      "11": {
+        "start": {
+          "line": 33,
+          "column": 8
+        },
+        "end": {
+          "line": 33,
+          "column": 25
+        }
+      },
+      "12": {
+        "start": {
+          "line": 35,
+          "column": 6
+        },
+        "end": {
+          "line": 35,
+          "column": 16
+        }
+      },
+      "13": {
+        "start": {
+          "line": 38,
+          "column": 30
+        },
+        "end": {
+          "line": 38,
+          "column": 60
+        }
+      },
+      "14": {
+        "start": {
+          "line": 39,
+          "column": 6
+        },
+        "end": {
+          "line": 43,
+          "column": 7
+        }
+      },
+      "15": {
+        "start": {
+          "line": 40,
+          "column": 8
+        },
+        "end": {
+          "line": 40,
+          "column": 23
+        }
+      },
+      "16": {
+        "start": {
+          "line": 41,
+          "column": 13
+        },
+        "end": {
+          "line": 43,
+          "column": 7
+        }
+      },
+      "17": {
+        "start": {
+          "line": 42,
+          "column": 8
+        },
+        "end": {
+          "line": 42,
+          "column": 25
+        }
+      },
+      "18": {
+        "start": {
+          "line": 44,
+          "column": 6
+        },
+        "end": {
+          "line": 44,
+          "column": 16
+        }
+      },
+      "19": {
+        "start": {
+          "line": 47,
+          "column": 18
+        },
+        "end": {
+          "line": 47,
+          "column": 22
+        }
+      },
+      "20": {
+        "start": {
+          "line": 48,
+          "column": 6
+        },
+        "end": {
+          "line": 48,
+          "column": 32
+        }
+      },
+      "21": {
+        "start": {
+          "line": 49,
+          "column": 6
+        },
+        "end": {
+          "line": 62,
+          "column": 77
+        }
+      },
+      "22": {
+        "start": {
+          "line": 50,
+          "column": 19
+        },
+        "end": {
+          "line": 58,
+          "column": 10
+        }
+      },
+      "23": {
+        "start": {
+          "line": 51,
+          "column": 10
+        },
+        "end": {
+          "line": 51,
+          "column": 52
+        }
+      },
+      "24": {
+        "start": {
+          "line": 52,
+          "column": 10
+        },
+        "end": {
+          "line": 54,
+          "column": 11
+        }
+      },
+      "25": {
+        "start": {
+          "line": 53,
+          "column": 12
+        },
+        "end": {
+          "line": 53,
+          "column": 101
+        }
+      },
+      "26": {
+        "start": {
+          "line": 55,
+          "column": 30
+        },
+        "end": {
+          "line": 55,
+          "column": 96
+        }
+      },
+      "27": {
+        "start": {
+          "line": 56,
+          "column": 31
+        },
+        "end": {
+          "line": 56,
+          "column": 95
+        }
+      },
+      "28": {
+        "start": {
+          "line": 57,
+          "column": 10
+        },
+        "end": {
+          "line": 57,
+          "column": 66
+        }
+      },
+      "29": {
+        "start": {
+          "line": 59,
+          "column": 8
+        },
+        "end": {
+          "line": 61,
+          "column": 10
+        }
+      },
+      "30": {
+        "start": {
+          "line": 60,
+          "column": 10
+        },
+        "end": {
+          "line": 60,
+          "column": 45
+        }
+      },
+      "31": {
+        "start": {
+          "line": 62,
+          "column": 23
+        },
+        "end": {
+          "line": 62,
+          "column": 75
+        }
+      },
+      "32": {
+        "start": {
+          "line": 65,
+          "column": 6
+        },
+        "end": {
+          "line": 67,
+          "column": 9
+        }
+      },
+      "33": {
+        "start": {
+          "line": 66,
+          "column": 8
+        },
+        "end": {
+          "line": 66,
+          "column": 40
+        }
+      },
+      "34": {
+        "start": {
+          "line": 70,
+          "column": 6
+        },
+        "end": {
+          "line": 72,
+          "column": 8
+        }
+      },
+      "35": {
+        "start": {
+          "line": 71,
+          "column": 8
+        },
+        "end": {
+          "line": 71,
+          "column": 159
+        }
+      },
+      "36": {
+        "start": {
+          "line": 75,
+          "column": 6
+        },
+        "end": {
+          "line": 133,
+          "column": 9
+        }
+      },
+      "37": {
+        "start": {
+          "line": 82,
+          "column": 10
+        },
+        "end": {
+          "line": 113,
+          "column": 11
+        }
+      },
+      "38": {
+        "start": {
+          "line": 83,
+          "column": 12
+        },
+        "end": {
+          "line": 83,
+          "column": 82
+        }
+      },
+      "39": {
+        "start": {
+          "line": 84,
+          "column": 12
+        },
+        "end": {
+          "line": 84,
+          "column": 34
+        }
+      },
+      "40": {
+        "start": {
+          "line": 85,
+          "column": 12
+        },
+        "end": {
+          "line": 85,
+          "column": 30
+        }
+      },
+      "41": {
+        "start": {
+          "line": 86,
+          "column": 12
+        },
+        "end": {
+          "line": 86,
+          "column": 72
+        }
+      },
+      "42": {
+        "start": {
+          "line": 87,
+          "column": 12
+        },
+        "end": {
+          "line": 87,
+          "column": 37
+        }
+      },
+      "43": {
+        "start": {
+          "line": 88,
+          "column": 12
+        },
+        "end": {
+          "line": 88,
+          "column": 30
+        }
+      },
+      "44": {
+        "start": {
+          "line": 89,
+          "column": 12
+        },
+        "end": {
+          "line": 89,
+          "column": 55
+        }
+      },
+      "45": {
+        "start": {
+          "line": 90,
+          "column": 12
+        },
+        "end": {
+          "line": 90,
+          "column": 40
+        }
+      },
+      "46": {
+        "start": {
+          "line": 91,
+          "column": 12
+        },
+        "end": {
+          "line": 91,
+          "column": 32
+        }
+      },
+      "47": {
+        "start": {
+          "line": 92,
+          "column": 12
+        },
+        "end": {
+          "line": 92,
+          "column": 74
+        }
+      },
+      "48": {
+        "start": {
+          "line": 93,
+          "column": 12
+        },
+        "end": {
+          "line": 93,
+          "column": 38
+        }
+      },
+      "49": {
+        "start": {
+          "line": 94,
+          "column": 12
+        },
+        "end": {
+          "line": 94,
+          "column": 30
+        }
+      },
+      "50": {
+        "start": {
+          "line": 95,
+          "column": 12
+        },
+        "end": {
+          "line": 95,
+          "column": 56
+        }
+      },
+      "51": {
+        "start": {
+          "line": 96,
+          "column": 12
+        },
+        "end": {
+          "line": 96,
+          "column": 41
+        }
+      },
+      "52": {
+        "start": {
+          "line": 97,
+          "column": 12
+        },
+        "end": {
+          "line": 97,
+          "column": 32
+        }
+      },
+      "53": {
+        "start": {
+          "line": 98,
+          "column": 12
+        },
+        "end": {
+          "line": 98,
+          "column": 61
+        }
+      },
+      "54": {
+        "start": {
+          "line": 99,
+          "column": 12
+        },
+        "end": {
+          "line": 101,
+          "column": 15
+        }
+      },
+      "55": {
+        "start": {
+          "line": 100,
+          "column": 14
+        },
+        "end": {
+          "line": 100,
+          "column": 36
+        }
+      },
+      "56": {
+        "start": {
+          "line": 102,
+          "column": 12
+        },
+        "end": {
+          "line": 102,
+          "column": 36
+        }
+      },
+      "57": {
+        "start": {
+          "line": 103,
+          "column": 12
+        },
+        "end": {
+          "line": 103,
+          "column": 30
+        }
+      },
+      "58": {
+        "start": {
+          "line": 104,
+          "column": 12
+        },
+        "end": {
+          "line": 104,
+          "column": 48
+        }
+      },
+      "59": {
+        "start": {
+          "line": 105,
+          "column": 12
+        },
+        "end": {
+          "line": 107,
+          "column": 15
+        }
+      },
+      "60": {
+        "start": {
+          "line": 106,
+          "column": 14
+        },
+        "end": {
+          "line": 106,
+          "column": 34
+        }
+      },
+      "61": {
+        "start": {
+          "line": 108,
+          "column": 12
+        },
+        "end": {
+          "line": 108,
+          "column": 37
+        }
+      },
+      "62": {
+        "start": {
+          "line": 109,
+          "column": 12
+        },
+        "end": {
+          "line": 109,
+          "column": 32
+        }
+      },
+      "63": {
+        "start": {
+          "line": 110,
+          "column": 12
+        },
+        "end": {
+          "line": 110,
+          "column": 45
+        }
+      },
+      "64": {
+        "start": {
+          "line": 111,
+          "column": 12
+        },
+        "end": {
+          "line": 111,
+          "column": 26
+        }
+      },
+      "65": {
+        "start": {
+          "line": 112,
+          "column": 12
+        },
+        "end": {
+          "line": 112,
+          "column": 36
+        }
+      },
+      "66": {
+        "start": {
+          "line": 114,
+          "column": 10
+        },
+        "end": {
+          "line": 129,
+          "column": 11
+        }
+      },
+      "67": {
+        "start": {
+          "line": 115,
+          "column": 12
+        },
+        "end": {
+          "line": 115,
+          "column": 28
+        }
+      },
+      "68": {
+        "start": {
+          "line": 116,
+          "column": 12
+        },
+        "end": {
+          "line": 116,
+          "column": 78
+        }
+      },
+      "69": {
+        "start": {
+          "line": 117,
+          "column": 12
+        },
+        "end": {
+          "line": 117,
+          "column": 28
+        }
+      },
+      "70": {
+        "start": {
+          "line": 118,
+          "column": 12
+        },
+        "end": {
+          "line": 118,
+          "column": 47
+        }
+      },
+      "71": {
+        "start": {
+          "line": 119,
+          "column": 12
+        },
+        "end": {
+          "line": 119,
+          "column": 28
+        }
+      },
+      "72": {
+        "start": {
+          "line": 120,
+          "column": 12
+        },
+        "end": {
+          "line": 120,
+          "column": 112
+        }
+      },
+      "73": {
+        "start": {
+          "line": 121,
+          "column": 12
+        },
+        "end": {
+          "line": 121,
+          "column": 28
+        }
+      },
+      "74": {
+        "start": {
+          "line": 122,
+          "column": 12
+        },
+        "end": {
+          "line": 122,
+          "column": 47
+        }
+      },
+      "75": {
+        "start": {
+          "line": 123,
+          "column": 12
+        },
+        "end": {
+          "line": 123,
+          "column": 28
+        }
+      },
+      "76": {
+        "start": {
+          "line": 124,
+          "column": 12
+        },
+        "end": {
+          "line": 124,
+          "column": 112
+        }
+      },
+      "77": {
+        "start": {
+          "line": 125,
+          "column": 12
+        },
+        "end": {
+          "line": 125,
+          "column": 28
+        }
+      },
+      "78": {
+        "start": {
+          "line": 126,
+          "column": 12
+        },
+        "end": {
+          "line": 126,
+          "column": 82
+        }
+      },
+      "79": {
+        "start": {
+          "line": 127,
+          "column": 12
+        },
+        "end": {
+          "line": 127,
+          "column": 28
+        }
+      },
+      "80": {
+        "start": {
+          "line": 128,
+          "column": 12
+        },
+        "end": {
+          "line": 128,
+          "column": 62
+        }
+      },
+      "81": {
+        "start": {
+          "line": 136,
+          "column": 2
+        },
+        "end": {
+          "line": 136,
+          "column": 24
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 13,
+            "column": 42
+          },
+          "end": {
+            "line": 13,
+            "column": 43
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 48
+          },
+          "end": {
+            "line": 137,
+            "column": 1
+          }
+        },
+        "line": 13
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 15,
+            "column": 4
+          },
+          "end": {
+            "line": 15,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 15,
+            "column": 50
+          },
+          "end": {
+            "line": 21,
+            "column": 5
+          }
+        },
+        "line": 15
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 22,
+            "column": 4
+          },
+          "end": {
+            "line": 22,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 22,
+            "column": 15
+          },
+          "end": {
+            "line": 27,
+            "column": 5
+          }
+        },
+        "line": 22
+      },
+      "3": {
+        "name": "(anonymous_3)",
+        "decl": {
+          "start": {
+            "line": 28,
+            "column": 4
+          },
+          "end": {
+            "line": 28,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 28,
+            "column": 32
+          },
+          "end": {
+            "line": 36,
+            "column": 5
+          }
+        },
+        "line": 28
+      },
+      "4": {
+        "name": "(anonymous_4)",
+        "decl": {
+          "start": {
+            "line": 37,
+            "column": 4
+          },
+          "end": {
+            "line": 37,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 37,
+            "column": 32
+          },
+          "end": {
+            "line": 45,
+            "column": 5
+          }
+        },
+        "line": 37
+      },
+      "5": {
+        "name": "(anonymous_5)",
+        "decl": {
+          "start": {
+            "line": 46,
+            "column": 4
+          },
+          "end": {
+            "line": 46,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 46,
+            "column": 15
+          },
+          "end": {
+            "line": 63,
+            "column": 5
+          }
+        },
+        "line": 46
+      },
+      "6": {
+        "name": "(anonymous_6)",
+        "decl": {
+          "start": {
+            "line": 49,
+            "column": 81
+          },
+          "end": {
+            "line": 49,
+            "column": 82
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 49,
+            "column": 93
+          },
+          "end": {
+            "line": 62,
+            "column": 7
+          }
+        },
+        "line": 49
+      },
+      "7": {
+        "name": "(anonymous_7)",
+        "decl": {
+          "start": {
+            "line": 50,
+            "column": 37
+          },
+          "end": {
+            "line": 50,
+            "column": 38
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 50,
+            "column": 61
+          },
+          "end": {
+            "line": 58,
+            "column": 9
+          }
+        },
+        "line": 50
+      },
+      "8": {
+        "name": "(anonymous_8)",
+        "decl": {
+          "start": {
+            "line": 59,
+            "column": 15
+          },
+          "end": {
+            "line": 59,
+            "column": 16
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 59,
+            "column": 29
+          },
+          "end": {
+            "line": 61,
+            "column": 9
+          }
+        },
+        "line": 59
+      },
+      "9": {
+        "name": "(anonymous_9)",
+        "decl": {
+          "start": {
+            "line": 62,
+            "column": 17
+          },
+          "end": {
+            "line": 62,
+            "column": 18
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 62,
+            "column": 23
+          },
+          "end": {
+            "line": 62,
+            "column": 75
+          }
+        },
+        "line": 62
+      },
+      "10": {
+        "name": "(anonymous_10)",
+        "decl": {
+          "start": {
+            "line": 64,
+            "column": 4
+          },
+          "end": {
+            "line": 64,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 64,
+            "column": 13
+          },
+          "end": {
+            "line": 68,
+            "column": 5
+          }
+        },
+        "line": 64
+      },
+      "11": {
+        "name": "(anonymous_11)",
+        "decl": {
+          "start": {
+            "line": 65,
+            "column": 41
+          },
+          "end": {
+            "line": 65,
+            "column": 42
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 65,
+            "column": 47
+          },
+          "end": {
+            "line": 67,
+            "column": 7
+          }
+        },
+        "line": 65
+      },
+      "12": {
+        "name": "LoginComponent_Factory",
+        "decl": {
+          "start": {
+            "line": 70,
+            "column": 27
+          },
+          "end": {
+            "line": 70,
+            "column": 49
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 70,
+            "column": 53
+          },
+          "end": {
+            "line": 72,
+            "column": 7
+          }
+        },
+        "line": 70
+      },
+      "13": {
+        "name": "LoginComponent_Template",
+        "decl": {
+          "start": {
+            "line": 81,
+            "column": 27
+          },
+          "end": {
+            "line": 81,
+            "column": 50
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 81,
+            "column": 60
+          },
+          "end": {
+            "line": 130,
+            "column": 9
+          }
+        },
+        "line": 81
+      },
+      "14": {
+        "name": "LoginComponent_Template_button_click_16_listener",
+        "decl": {
+          "start": {
+            "line": 99,
+            "column": 44
+          },
+          "end": {
+            "line": 99,
+            "column": 92
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 99,
+            "column": 95
+          },
+          "end": {
+            "line": 101,
+            "column": 13
+          }
+        },
+        "line": 99
+      },
+      "15": {
+        "name": "LoginComponent_Template_button_click_18_listener",
+        "decl": {
+          "start": {
+            "line": 105,
+            "column": 44
+          },
+          "end": {
+            "line": 105,
+            "column": 92
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 105,
+            "column": 95
+          },
+          "end": {
+            "line": 107,
+            "column": 13
+          }
+        },
+        "line": 105
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 30,
+            "column": 6
+          },
+          "end": {
+            "line": 34,
+            "column": 7
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 30,
+              "column": 6
+            },
+            "end": {
+              "line": 34,
+              "column": 7
+            }
+          },
+          {
+            "start": {
+              "line": 30,
+              "column": 6
+            },
+            "end": {
+              "line": 34,
+              "column": 7
+            }
+          }
+        ],
+        "line": 30
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 30,
+            "column": 10
+          },
+          "end": {
+            "line": 30,
+            "column": 109
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 30,
+              "column": 10
+            },
+            "end": {
+              "line": 30,
+              "column": 33
+            }
+          },
+          {
+            "start": {
+              "line": 30,
+              "column": 37
+            },
+            "end": {
+              "line": 30,
+              "column": 60
+            }
+          },
+          {
+            "start": {
+              "line": 30,
+              "column": 64
+            },
+            "end": {
+              "line": 30,
+              "column": 82
+            }
+          },
+          {
+            "start": {
+              "line": 30,
+              "column": 86
+            },
+            "end": {
+              "line": 30,
+              "column": 109
+            }
+          }
+        ],
+        "line": 30
+      },
+      "2": {
+        "loc": {
+          "start": {
+            "line": 32,
+            "column": 13
+          },
+          "end": {
+            "line": 34,
+            "column": 7
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 32,
+              "column": 13
+            },
+            "end": {
+              "line": 34,
+              "column": 7
+            }
+          },
+          {
+            "start": {
+              "line": 32,
+              "column": 13
+            },
+            "end": {
+              "line": 34,
+              "column": 7
+            }
+          }
+        ],
+        "line": 32
+      },
+      "3": {
+        "loc": {
+          "start": {
+            "line": 32,
+            "column": 17
+          },
+          "end": {
+            "line": 32,
+            "column": 65
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 32,
+              "column": 17
+            },
+            "end": {
+              "line": 32,
+              "column": 40
+            }
+          },
+          {
+            "start": {
+              "line": 32,
+              "column": 44
+            },
+            "end": {
+              "line": 32,
+              "column": 65
+            }
+          }
+        ],
+        "line": 32
+      },
+      "4": {
+        "loc": {
+          "start": {
+            "line": 39,
+            "column": 6
+          },
+          "end": {
+            "line": 43,
+            "column": 7
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 39,
+              "column": 6
+            },
+            "end": {
+              "line": 43,
+              "column": 7
+            }
+          },
+          {
+            "start": {
+              "line": 39,
+              "column": 6
+            },
+            "end": {
+              "line": 43,
+              "column": 7
+            }
+          }
+        ],
+        "line": 39
+      },
+      "5": {
+        "loc": {
+          "start": {
+            "line": 39,
+            "column": 10
+          },
+          "end": {
+            "line": 39,
+            "column": 109
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 39,
+              "column": 10
+            },
+            "end": {
+              "line": 39,
+              "column": 33
+            }
+          },
+          {
+            "start": {
+              "line": 39,
+              "column": 37
+            },
+            "end": {
+              "line": 39,
+              "column": 60
+            }
+          },
+          {
+            "start": {
+              "line": 39,
+              "column": 64
+            },
+            "end": {
+              "line": 39,
+              "column": 82
+            }
+          },
+          {
+            "start": {
+              "line": 39,
+              "column": 86
+            },
+            "end": {
+              "line": 39,
+              "column": 109
+            }
+          }
+        ],
+        "line": 39
+      },
+      "6": {
+        "loc": {
+          "start": {
+            "line": 41,
+            "column": 13
+          },
+          "end": {
+            "line": 43,
+            "column": 7
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 41,
+              "column": 13
+            },
+            "end": {
+              "line": 43,
+              "column": 7
+            }
+          },
+          {
+            "start": {
+              "line": 41,
+              "column": 13
+            },
+            "end": {
+              "line": 43,
+              "column": 7
+            }
+          }
+        ],
+        "line": 41
+      },
+      "7": {
+        "loc": {
+          "start": {
+            "line": 41,
+            "column": 17
+          },
+          "end": {
+            "line": 41,
+            "column": 65
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 41,
+              "column": 17
+            },
+            "end": {
+              "line": 41,
+              "column": 40
+            }
+          },
+          {
+            "start": {
+              "line": 41,
+              "column": 44
+            },
+            "end": {
+              "line": 41,
+              "column": 65
+            }
+          }
+        ],
+        "line": 41
+      },
+      "8": {
+        "loc": {
+          "start": {
+            "line": 52,
+            "column": 10
+          },
+          "end": {
+            "line": 54,
+            "column": 11
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 52,
+              "column": 10
+            },
+            "end": {
+              "line": 54,
+              "column": 11
+            }
+          },
+          {
+            "start": {
+              "line": 52,
+              "column": 10
+            },
+            "end": {
+              "line": 54,
+              "column": 11
+            }
+          }
+        ],
+        "line": 52
+      },
+      "9": {
+        "loc": {
+          "start": {
+            "line": 71,
+            "column": 20
+          },
+          "end": {
+            "line": 71,
+            "column": 39
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 71,
+              "column": 20
+            },
+            "end": {
+              "line": 71,
+              "column": 21
+            }
+          },
+          {
+            "start": {
+              "line": 71,
+              "column": 25
+            },
+            "end": {
+              "line": 71,
+              "column": 39
+            }
+          }
+        ],
+        "line": 71
+      },
+      "10": {
+        "loc": {
+          "start": {
+            "line": 82,
+            "column": 10
+          },
+          "end": {
+            "line": 113,
+            "column": 11
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 82,
+              "column": 10
+            },
+            "end": {
+              "line": 113,
+              "column": 11
+            }
+          },
+          {
+            "start": {
+              "line": 82,
+              "column": 10
+            },
+            "end": {
+              "line": 113,
+              "column": 11
+            }
+          }
+        ],
+        "line": 82
+      },
+      "11": {
+        "loc": {
+          "start": {
+            "line": 114,
+            "column": 10
+          },
+          "end": {
+            "line": 129,
+            "column": 11
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 114,
+              "column": 10
+            },
+            "end": {
+              "line": 129,
+              "column": 11
+            }
+          },
+          {
+            "start": {
+              "line": 114,
+              "column": 10
+            },
+            "end": {
+              "line": 129,
+              "column": 11
+            }
+          }
+        ],
+        "line": 114
+      },
+      "12": {
+        "loc": {
+          "start": {
+            "line": 126,
+            "column": 38
+          },
+          "end": {
+            "line": 126,
+            "column": 80
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 126,
+              "column": 38
+            },
+            "end": {
+              "line": 126,
+              "column": 59
+            }
+          },
+          {
+            "start": {
+              "line": 126,
+              "column": 63
+            },
+            "end": {
+              "line": 126,
+              "column": 80
+            }
+          }
+        ],
+        "line": 126
+      }
+    },
+    "s": {
+      "0": 4,
+      "1": 4,
+      "2": 4,
+      "3": 4,
+      "4": 4,
+      "5": 4,
+      "6": 4,
+      "7": 59,
+      "8": 59,
+      "9": 3,
+      "10": 56,
+      "11": 26,
+      "12": 30,
+      "13": 59,
+      "14": 59,
+      "15": 6,
+      "16": 53,
+      "17": 7,
+      "18": 46,
+      "19": 3,
+      "20": 3,
+      "21": 3,
+      "22": 3,
+      "23": 0,
+      "24": 0,
+      "25": 0,
+      "26": 0,
+      "27": 0,
+      "28": 0,
+      "29": 3,
+      "30": 0,
+      "31": 2,
+      "32": 0,
+      "33": 0,
+      "34": 4,
+      "35": 4,
+      "36": 4,
+      "37": 63,
+      "38": 4,
+      "39": 4,
+      "40": 4,
+      "41": 4,
+      "42": 4,
+      "43": 4,
+      "44": 4,
+      "45": 4,
+      "46": 4,
+      "47": 4,
+      "48": 4,
+      "49": 4,
+      "50": 4,
+      "51": 4,
+      "52": 4,
+      "53": 4,
+      "54": 4,
+      "55": 3,
+      "56": 4,
+      "57": 4,
+      "58": 4,
+      "59": 4,
+      "60": 0,
+      "61": 4,
+      "62": 4,
+      "63": 4,
+      "64": 4,
+      "65": 4,
+      "66": 63,
+      "67": 59,
+      "68": 59,
+      "69": 59,
+      "70": 59,
+      "71": 59,
+      "72": 59,
+      "73": 59,
+      "74": 59,
+      "75": 59,
+      "76": 59,
+      "77": 59,
+      "78": 59,
+      "79": 59,
+      "80": 59,
+      "81": 4
+    },
+    "f": {
+      "0": 4,
+      "1": 4,
+      "2": 4,
+      "3": 59,
+      "4": 59,
+      "5": 3,
+      "6": 3,
+      "7": 0,
+      "8": 0,
+      "9": 2,
+      "10": 0,
+      "11": 0,
+      "12": 4,
+      "13": 63,
+      "14": 3,
+      "15": 0
+    },
+    "b": {
+      "0": [
+        3,
+        56
+      ],
+      "1": [
+        59,
+        26,
+        59,
+        10
+      ],
+      "2": [
+        26,
+        30
+      ],
+      "3": [
+        56,
+        26
+      ],
+      "4": [
+        6,
+        53
+      ],
+      "5": [
+        59,
+        10,
+        56,
+        9
+      ],
+      "6": [
+        7,
+        46
+      ],
+      "7": [
+        53,
+        7
+      ],
+      "8": [
+        0,
+        0
+      ],
+      "9": [
+        4,
+        4
+      ],
+      "10": [
+        4,
+        59
+      ],
+      "11": [
+        59,
+        4
+      ],
+      "12": [
+        59,
+        38
+      ]
+    },
+    "inputSourceMap": {
+      "version": 3,
+      "names": [
+        "Validators",
+        "LoginComponent",
+        "constructor",
+        "fb",
+        "tokenService",
+        "cognitoService",
+        "formSubmitted",
+        "errorMessage",
+        "ngOnInit",
+        "loginForm",
+        "group",
+        "email",
+        "required",
+        "password",
+        "usernameControlStatus",
+        "usernameControl",
+        "get",
+        "touched",
+        "invalid",
+        "valid",
+        "passwordControlStatus",
+        "passwordControl",
+        "onSubmit",
+        "_this",
+        "signIn",
+        "getRawValue",
+        "then",
+        "_ref",
+        "_asyncToGenerator",
+        "cognitoUser",
+        "console",
+        "log",
+        "challengeName",
+        "confirmNewPassword",
+        "accessToken",
+        "getSignInUserSession",
+        "getAccessToken",
+        "getJwtToken",
+        "refreshToken",
+        "getRefreshToken",
+        "getToken",
+        "setTokens",
+        "_x",
+        "apply",
+        "arguments",
+        "catch",
+        "logOut",
+        "signOut",
+        "clearTokens",
+        "i0",
+        "ɵɵdirectiveInject",
+        "i1",
+        "FormBuilder",
+        "i2",
+        "TokenService",
+        "i3",
+        "CognitoService",
+        "selectors",
+        "decls",
+        "vars",
+        "consts",
+        "template",
+        "LoginComponent_Template",
+        "rf",
+        "ctx",
+        "ɵɵelementStart",
+        "ɵɵtext",
+        "ɵɵelementEnd",
+        "ɵɵelement",
+        "ɵɵlistener",
+        "LoginComponent_Template_button_click_16_listener",
+        "LoginComponent_Template_button_click_18_listener",
+        "ɵɵadvance",
+        "ɵɵproperty",
+        "ɵɵtextInterpolate1"
+      ],
+      "sources": [
+        "C:\\mycode\\projects\\banc\\banc-ui\\src\\app\\modules\\non-authenticated\\components\\login\\login.component.ts",
+        "C:\\mycode\\projects\\banc\\banc-ui\\src\\app\\modules\\non-authenticated\\components\\login\\login.component.html"
+      ],
+      "sourcesContent": [
+        "import {Component, OnInit} from '@angular/core';\nimport {AbstractControl, FormBuilder, FormGroup, Validators} from \"@angular/forms\";\nimport {CognitoService} from \"../../services/cognito.service\";\nimport {TokenService} from \"../../services/token.service\";\n\n@Component({\n  selector: 'app-login',\n  templateUrl: './login.component.html',\n  styleUrls: ['./login.component.scss']\n})\nexport class LoginComponent implements OnInit {\n  loginForm!: FormGroup;\n  formSubmitted: boolean = false;\n  errorMessage: string = '';\n\n  constructor(\n    private fb: FormBuilder,\n    private tokenService: TokenService,\n    private cognitoService: CognitoService,\n  ) {\n  }\n\n  ngOnInit(): void {\n    this.loginForm = this.fb.group({\n      email: ['', [Validators.required]],\n      password: ['', [Validators.required]]\n    })\n  }\n\n  get usernameControlStatus(): string {\n    const usernameControl: AbstractControl = this.loginForm.get('email')!;\n    if ((usernameControl.touched && usernameControl.invalid) || (this.formSubmitted && usernameControl.invalid)) {\n      return 'error';\n    } else if (usernameControl.touched && usernameControl.valid) {\n      return 'success'\n    }\n    return '';\n  }\n\n  get passwordControlStatus(): string {\n    const passwordControl: AbstractControl = this.loginForm.get('password')!;\n    if ((passwordControl.touched && passwordControl.invalid) || (this.formSubmitted && passwordControl.invalid)) {\n      return 'error';\n    } else if (passwordControl.touched && passwordControl.valid) {\n      return 'success'\n    }\n    return '';\n  }\n\n  onSubmit() {\n    this.formSubmitted = true;\n    this.cognitoService.signIn(this.loginForm.getRawValue())\n      .then(async (cognitoUser) => {\n        console.log('sign in res: ', cognitoUser);\n        if (cognitoUser.challengeName === 'NEW_PASSWORD_REQUIRED') {\n          cognitoUser = await this.cognitoService.confirmNewPassword(cognitoUser, 'Quicksilva@7');\n        }\n        const accessToken: string = cognitoUser.getSignInUserSession()?.getAccessToken().getJwtToken() as string;\n        const refreshToken: string = cognitoUser.getSignInUserSession()?.getRefreshToken().getToken() as string;\n        this.tokenService.setTokens(accessToken, refreshToken);\n      }).catch(\n      () => this.errorMessage = 'Login failed. Please try again'\n    );\n  }\n\n  logOut() {\n    this.cognitoService.signOut()\n      .then(() => {\n        this.tokenService.clearTokens();\n      });\n  }\n}\n",
+        "<div class=\"login-container\">\n  <div class=\"login-form\">\n    <form\n      nz-form\n      [formGroup]=\"loginForm\"\n      [nzLayout]=\"'vertical'\"\n    >\n      <h2 class=\"login-title\">Login</h2>\n\n      <nz-form-item>\n        <nz-form-label [nzFor]=\"'username'\" nzRequired>Username</nz-form-label>\n        <nz-form-control [nzValidateStatus]=\"usernameControlStatus\" [nzErrorTip]=\"'Username is required!'\"\n                         nzHasFeedback>\n          <input\n            nz-input\n            id=\"username\"\n            type=\"text\"\n            formControlName=\"email\"\n            placeholder=\"Enter your name\"\n          />\n        </nz-form-control>\n      </nz-form-item>\n\n      <nz-form-item>\n        <nz-form-label [nzFor]=\"'password'\" nzRequired>Password</nz-form-label>\n        <nz-form-control [nzValidateStatus]=\"passwordControlStatus\" [nzErrorTip]=\"'Password is required!'\"\n                         nzHasFeedback>\n          <input\n            nz-input\n            id=\"password\"\n            type=\"password\"\n            formControlName=\"password\"\n            placeholder=\"Enter your password\"\n          />\n        </nz-form-control>\n      </nz-form-item>\n\n      <div class=\"form-actions\">\n        <button\n          type=\"submit\"\n          (click)=\"onSubmit()\"\n          nz-button\n          nzType=\"primary\"\n          [disabled]=\"loginForm.invalid && formSubmitted\"\n        >Login\n        </button>\n        <button\n          (click)=\"logOut()\"\n          nz-button\n          nzType=\"dashed\"\n        >logout\n        </button>\n      </div>\n\n      <div class=\"error-message\">\n        {{ errorMessage }}\n      </div>\n    </form>\n  </div>\n</div>\n"
+      ],
+      "mappings": ";AACA,SAAiDA,UAAU,QAAO,gBAAgB;;;;;;;;;;;AASlF,WAAaC,cAAc;EAArB,MAAOA,cAAc;IAKzBC,YACUC,EAAe,EACfC,YAA0B,EAC1BC,cAA8B;MAF9B,KAAAF,EAAE,GAAFA,EAAE;MACF,KAAAC,YAAY,GAAZA,YAAY;MACZ,KAAAC,cAAc,GAAdA,cAAc;MANxB,KAAAC,aAAa,GAAY,KAAK;MAC9B,KAAAC,YAAY,GAAW,EAAE;IAOzB;IAEAC,QAAQA,CAAA;MACN,IAAI,CAACC,SAAS,GAAG,IAAI,CAACN,EAAE,CAACO,KAAK,CAAC;QAC7BC,KAAK,EAAE,CAAC,EAAE,EAAE,CAACX,UAAU,CAACY,QAAQ,CAAC,CAAC;QAClCC,QAAQ,EAAE,CAAC,EAAE,EAAE,CAACb,UAAU,CAACY,QAAQ,CAAC;OACrC,CAAC;IACJ;IAEA,IAAIE,qBAAqBA,CAAA;MACvB,MAAMC,eAAe,GAAoB,IAAI,CAACN,SAAS,CAACO,GAAG,CAAC,OAAO,CAAE;MACrE,IAAKD,eAAe,CAACE,OAAO,IAAIF,eAAe,CAACG,OAAO,IAAM,IAAI,CAACZ,aAAa,IAAIS,eAAe,CAACG,OAAQ,EAAE;QAC3G,OAAO,OAAO;OACf,MAAM,IAAIH,eAAe,CAACE,OAAO,IAAIF,eAAe,CAACI,KAAK,EAAE;QAC3D,OAAO,SAAS;;MAElB,OAAO,EAAE;IACX;IAEA,IAAIC,qBAAqBA,CAAA;MACvB,MAAMC,eAAe,GAAoB,IAAI,CAACZ,SAAS,CAACO,GAAG,CAAC,UAAU,CAAE;MACxE,IAAKK,eAAe,CAACJ,OAAO,IAAII,eAAe,CAACH,OAAO,IAAM,IAAI,CAACZ,aAAa,IAAIe,eAAe,CAACH,OAAQ,EAAE;QAC3G,OAAO,OAAO;OACf,MAAM,IAAIG,eAAe,CAACJ,OAAO,IAAII,eAAe,CAACF,KAAK,EAAE;QAC3D,OAAO,SAAS;;MAElB,OAAO,EAAE;IACX;IAEAG,QAAQA,CAAA;MAAA,IAAAC,KAAA;MACN,IAAI,CAACjB,aAAa,GAAG,IAAI;MACzB,IAAI,CAACD,cAAc,CAACmB,MAAM,CAAC,IAAI,CAACf,SAAS,CAACgB,WAAW,EAAE,CAAC,CACrDC,IAAI;QAAA,IAAAC,IAAA,GAAAC,iBAAA,CAAC,WAAOC,WAAW,EAAI;UAC1BC,OAAO,CAACC,GAAG,CAAC,eAAe,EAAEF,WAAW,CAAC;UACzC,IAAIA,WAAW,CAACG,aAAa,KAAK,uBAAuB,EAAE;YACzDH,WAAW,SAASN,KAAI,CAAClB,cAAc,CAAC4B,kBAAkB,CAACJ,WAAW,EAAE,cAAc,CAAC;;UAEzF,MAAMK,WAAW,GAAWL,WAAW,CAACM,oBAAoB,EAAE,EAAEC,cAAc,EAAE,CAACC,WAAW,EAAY;UACxG,MAAMC,YAAY,GAAWT,WAAW,CAACM,oBAAoB,EAAE,EAAEI,eAAe,EAAE,CAACC,QAAQ,EAAY;UACvGjB,KAAI,CAACnB,YAAY,CAACqC,SAAS,CAACP,WAAW,EAAEI,YAAY,CAAC;QACxD,CAAC;QAAA,iBAAAI,EAAA;UAAA,OAAAf,IAAA,CAAAgB,KAAA,OAAAC,SAAA;QAAA;MAAA,IAAC,CAACC,KAAK,CACR,MAAM,IAAI,CAACtC,YAAY,GAAG,gCAAgC,CAC3D;IACH;IAEAuC,MAAMA,CAAA;MACJ,IAAI,CAACzC,cAAc,CAAC0C,OAAO,EAAE,CAC1BrB,IAAI,CAAC,MAAK;QACT,IAAI,CAACtB,YAAY,CAAC4C,WAAW,EAAE;MACjC,CAAC,CAAC;IACN;;;yBA5DW/C,cAAc,EAAAgD,EAAA,CAAAC,iBAAA,CAAAC,EAAA,CAAAC,WAAA,GAAAH,EAAA,CAAAC,iBAAA,CAAAG,EAAA,CAAAC,YAAA,GAAAL,EAAA,CAAAC,iBAAA,CAAAK,EAAA,CAAAC,cAAA;MAAA;IAAA;;;cAAdvD,cAAc;QAAAwD,SAAA;QAAAC,KAAA;QAAAC,IAAA;QAAAC,MAAA;QAAAC,QAAA,WAAAC,wBAAAC,EAAA,EAAAC,GAAA;UAAA,IAAAD,EAAA;YCV3Bd,EAAA,CAAAgB,cAAA,aAA6B;YAOChB,EAAA,CAAAiB,MAAA,YAAK;YAAAjB,EAAA,CAAAkB,YAAA,EAAK;YAElClB,EAAA,CAAAgB,cAAA,mBAAc;YACmChB,EAAA,CAAAiB,MAAA,eAAQ;YAAAjB,EAAA,CAAAkB,YAAA,EAAgB;YACvElB,EAAA,CAAAgB,cAAA,yBAC+B;YAC7BhB,EAAA,CAAAmB,SAAA,eAME;YACJnB,EAAA,CAAAkB,YAAA,EAAkB;YAGpBlB,EAAA,CAAAgB,cAAA,oBAAc;YACmChB,EAAA,CAAAiB,MAAA,gBAAQ;YAAAjB,EAAA,CAAAkB,YAAA,EAAgB;YACvElB,EAAA,CAAAgB,cAAA,0BAC+B;YAC7BhB,EAAA,CAAAmB,SAAA,gBAME;YACJnB,EAAA,CAAAkB,YAAA,EAAkB;YAGpBlB,EAAA,CAAAgB,cAAA,cAA0B;YAGtBhB,EAAA,CAAAoB,UAAA,mBAAAC,iDAAA;cAAA,OAASN,GAAA,CAAA1C,QAAA,EAAU;YAAA,EAAC;YAIrB2B,EAAA,CAAAiB,MAAA,cACD;YAAAjB,EAAA,CAAAkB,YAAA,EAAS;YACTlB,EAAA,CAAAgB,cAAA,kBAIC;YAHChB,EAAA,CAAAoB,UAAA,mBAAAE,iDAAA;cAAA,OAASP,GAAA,CAAAlB,MAAA,EAAQ;YAAA,EAAC;YAGnBG,EAAA,CAAAiB,MAAA,eACD;YAAAjB,EAAA,CAAAkB,YAAA,EAAS;YAGXlB,EAAA,CAAAgB,cAAA,eAA2B;YACzBhB,EAAA,CAAAiB,MAAA,IACF;YAAAjB,EAAA,CAAAkB,YAAA,EAAM;;;YApDNlB,EAAA,CAAAuB,SAAA,GAAuB;YAAvBvB,EAAA,CAAAwB,UAAA,cAAAT,GAAA,CAAAvD,SAAA,CAAuB;YAMNwC,EAAA,CAAAuB,SAAA,GAAoB;YAApBvB,EAAA,CAAAwB,UAAA,qBAAoB;YAClBxB,EAAA,CAAAuB,SAAA,GAA0C;YAA1CvB,EAAA,CAAAwB,UAAA,qBAAAT,GAAA,CAAAlD,qBAAA,CAA0C;YAa5CmC,EAAA,CAAAuB,SAAA,GAAoB;YAApBvB,EAAA,CAAAwB,UAAA,qBAAoB;YAClBxB,EAAA,CAAAuB,SAAA,GAA0C;YAA1CvB,EAAA,CAAAwB,UAAA,qBAAAT,GAAA,CAAA5C,qBAAA,CAA0C;YAkBzD6B,EAAA,CAAAuB,SAAA,GAA+C;YAA/CvB,EAAA,CAAAwB,UAAA,aAAAT,GAAA,CAAAvD,SAAA,CAAAS,OAAA,IAAA8C,GAAA,CAAA1D,aAAA,CAA+C;YAYjD2C,EAAA,CAAAuB,SAAA,GACF;YADEvB,EAAA,CAAAyB,kBAAA,MAAAV,GAAA,CAAAzD,YAAA,MACF;;;;;;;;SD9CON,cAAc;AAAA",
+      "ignoreList": []
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "72fdcb1119f3cd96855aade75fccf00c366197b1"
+  },
+  "C:\\mycode\\projects\\banc\\banc-ui\\src\\app\\modules\\non-authenticated\\non-authenticated-routing.module.ts": {
+    "path": "C:\\mycode\\projects\\banc\\banc-ui\\src\\app\\modules\\non-authenticated\\non-authenticated-routing.module.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 5,
+          "column": 15
+        },
+        "end": {
+          "line": 12,
+          "column": 2
+        }
+      },
+      "1": {
+        "start": {
+          "line": 13,
+          "column": 56
+        },
+        "end": {
+          "line": 32,
+          "column": 4
+        }
+      },
+      "2": {
+        "start": {
+          "line": 16,
+          "column": 6
+        },
+        "end": {
+          "line": 18,
+          "column": 8
+        }
+      },
+      "3": {
+        "start": {
+          "line": 17,
+          "column": 8
+        },
+        "end": {
+          "line": 17,
+          "column": 58
+        }
+      },
+      "4": {
+        "start": {
+          "line": 21,
+          "column": 6
+        },
+        "end": {
+          "line": 23,
+          "column": 9
+        }
+      },
+      "5": {
+        "start": {
+          "line": 26,
+          "column": 6
+        },
+        "end": {
+          "line": 28,
+          "column": 9
+        }
+      },
+      "6": {
+        "start": {
+          "line": 31,
+          "column": 2
+        },
+        "end": {
+          "line": 31,
+          "column": 39
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 13,
+            "column": 57
+          },
+          "end": {
+            "line": 13,
+            "column": 58
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 63
+          },
+          "end": {
+            "line": 32,
+            "column": 1
+          }
+        },
+        "line": 13
+      },
+      "1": {
+        "name": "NonAuthenticatedRoutingModule_Factory",
+        "decl": {
+          "start": {
+            "line": 16,
+            "column": 27
+          },
+          "end": {
+            "line": 16,
+            "column": 64
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 68
+          },
+          "end": {
+            "line": 18,
+            "column": 7
+          }
+        },
+        "line": 16
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 17,
+            "column": 20
+          },
+          "end": {
+            "line": 17,
+            "column": 54
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 17,
+              "column": 20
+            },
+            "end": {
+              "line": 17,
+              "column": 21
+            }
+          },
+          {
+            "start": {
+              "line": 17,
+              "column": 25
+            },
+            "end": {
+              "line": 17,
+              "column": 54
+            }
+          }
+        ],
+        "line": 17
+      }
+    },
+    "s": {
+      "0": 4,
+      "1": 4,
+      "2": 4,
+      "3": 8,
+      "4": 4,
+      "5": 4,
+      "6": 4
+    },
+    "f": {
+      "0": 4,
+      "1": 8
+    },
+    "b": {
+      "0": [
+        8,
+        8
+      ]
+    },
+    "inputSourceMap": {
+      "version": 3,
+      "names": [
+        "RouterModule",
+        "LoginComponent",
+        "routes",
+        "path",
+        "redirectTo",
+        "pathMatch",
+        "component",
+        "NonAuthenticatedRoutingModule",
+        "forChild"
+      ],
+      "sources": [
+        "C:\\mycode\\projects\\banc\\banc-ui\\src\\app\\modules\\non-authenticated\\non-authenticated-routing.module.ts"
+      ],
+      "sourcesContent": [
+        "import { NgModule } from '@angular/core';\nimport { RouterModule, Routes } from '@angular/router';\nimport {LoginComponent} from \"./components/login/login.component\";\n\nconst routes: Routes = [\n  {\n    path: '',\n    redirectTo: 'login',\n    pathMatch: 'full'\n  },\n  {\n    path: 'login',\n    component: LoginComponent\n  }\n];\n\n@NgModule({\n  imports: [RouterModule.forChild(routes)],\n  exports: [RouterModule]\n})\nexport class NonAuthenticatedRoutingModule { }\n"
+      ],
+      "mappings": "AACA,SAASA,YAAY,QAAgB,iBAAiB;AACtD,SAAQC,cAAc,QAAO,oCAAoC;;;AAEjE,MAAMC,MAAM,GAAW,CACrB;EACEC,IAAI,EAAE,EAAE;EACRC,UAAU,EAAE,OAAO;EACnBC,SAAS,EAAE;CACZ,EACD;EACEF,IAAI,EAAE,OAAO;EACbG,SAAS,EAAEL;CACZ,CACF;AAMD,WAAaM,6BAA6B;EAApC,MAAOA,6BAA6B;;;yBAA7BA,6BAA6B;MAAA;IAAA;;;cAA7BA;MAA6B;IAAA;;;kBAH9BP,YAAY,CAACQ,QAAQ,CAACN,MAAM,CAAC,EAC7BF,YAAY;MAAA;IAAA;;SAEXO,6BAA6B;AAAA",
+      "ignoreList": []
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "9bab71b8558d6cd00931d6c15d2f6ca369631f8d"
+  },
+  "C:\\mycode\\projects\\banc\\banc-ui\\src\\app\\modules\\non-authenticated\\non-authenticated.module.ts": {
+    "path": "C:\\mycode\\projects\\banc\\banc-ui\\src\\app\\modules\\non-authenticated\\non-authenticated.module.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 8,
+          "column": 49
+        },
+        "end": {
+          "line": 27,
+          "column": 4
+        }
+      },
+      "1": {
+        "start": {
+          "line": 11,
+          "column": 6
+        },
+        "end": {
+          "line": 13,
+          "column": 8
+        }
+      },
+      "2": {
+        "start": {
+          "line": 12,
+          "column": 8
+        },
+        "end": {
+          "line": 12,
+          "column": 51
+        }
+      },
+      "3": {
+        "start": {
+          "line": 16,
+          "column": 6
+        },
+        "end": {
+          "line": 18,
+          "column": 9
+        }
+      },
+      "4": {
+        "start": {
+          "line": 21,
+          "column": 6
+        },
+        "end": {
+          "line": 23,
+          "column": 9
+        }
+      },
+      "5": {
+        "start": {
+          "line": 26,
+          "column": 2
+        },
+        "end": {
+          "line": 26,
+          "column": 32
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 8,
+            "column": 50
+          },
+          "end": {
+            "line": 8,
+            "column": 51
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 56
+          },
+          "end": {
+            "line": 27,
+            "column": 1
+          }
+        },
+        "line": 8
+      },
+      "1": {
+        "name": "NonAuthenticatedModule_Factory",
+        "decl": {
+          "start": {
+            "line": 11,
+            "column": 27
+          },
+          "end": {
+            "line": 11,
+            "column": 57
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 61
+          },
+          "end": {
+            "line": 13,
+            "column": 7
+          }
+        },
+        "line": 11
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 20
+          },
+          "end": {
+            "line": 12,
+            "column": 47
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 12,
+              "column": 20
+            },
+            "end": {
+              "line": 12,
+              "column": 21
+            }
+          },
+          {
+            "start": {
+              "line": 12,
+              "column": 25
+            },
+            "end": {
+              "line": 12,
+              "column": 47
+            }
+          }
+        ],
+        "line": 12
+      }
+    },
+    "s": {
+      "0": 4,
+      "1": 4,
+      "2": 8,
+      "3": 4,
+      "4": 4,
+      "5": 4
+    },
+    "f": {
+      "0": 4,
+      "1": 8
+    },
+    "b": {
+      "0": [
+        8,
+        8
+      ]
+    },
+    "inputSourceMap": {
+      "version": 3,
+      "names": [
+        "CommonModule",
+        "NonAuthenticatedRoutingModule",
+        "NzFormModule",
+        "FormsModule",
+        "ReactiveFormsModule",
+        "NzInputModule",
+        "NzButtonModule",
+        "NonAuthenticatedModule"
+      ],
+      "sources": [
+        "C:\\mycode\\projects\\banc\\banc-ui\\src\\app\\modules\\non-authenticated\\non-authenticated.module.ts"
+      ],
+      "sourcesContent": [
+        "import { NgModule } from '@angular/core';\nimport { CommonModule } from '@angular/common';\n\nimport { NonAuthenticatedRoutingModule } from './non-authenticated-routing.module';\nimport { LoginComponent } from './components/login/login.component';\nimport {NzFormModule} from \"ng-zorro-antd/form\";\nimport {FormsModule, ReactiveFormsModule} from \"@angular/forms\";\nimport {NzInputModule} from \"ng-zorro-antd/input\";\nimport {NzButtonModule} from \"ng-zorro-antd/button\";\n\n\n@NgModule({\n  declarations: [\n    LoginComponent\n  ],\n  imports: [\n    CommonModule,\n    NonAuthenticatedRoutingModule,\n    NzFormModule,\n    FormsModule,\n    ReactiveFormsModule,\n    NzInputModule,\n    NzButtonModule\n  ]\n})\nexport class NonAuthenticatedModule { }\n"
+      ],
+      "mappings": "AACA,SAASA,YAAY,QAAQ,iBAAiB;AAE9C,SAASC,6BAA6B,QAAQ,oCAAoC;AAElF,SAAQC,YAAY,QAAO,oBAAoB;AAC/C,SAAQC,WAAW,EAAEC,mBAAmB,QAAO,gBAAgB;AAC/D,SAAQC,aAAa,QAAO,qBAAqB;AACjD,SAAQC,cAAc,QAAO,sBAAsB;;AAiBnD,WAAaC,sBAAsB;EAA7B,MAAOA,sBAAsB;;;yBAAtBA,sBAAsB;MAAA;IAAA;;;cAAtBA;MAAsB;IAAA;;;kBAT/BP,YAAY,EACZC,6BAA6B,EAC7BC,YAAY,EACZC,WAAW,EACXC,mBAAmB,EACnBC,aAAa,EACbC,cAAc;MAAA;IAAA;;SAGLC,sBAAsB;AAAA",
+      "ignoreList": []
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "f1cb92221432a07c2d18b952f03d4b23128c4a39"
+  },
+  "C:\\mycode\\projects\\banc\\banc-ui\\src\\app\\app.module.ts": {
+    "path": "C:\\mycode\\projects\\banc\\banc-ui\\src\\app\\app.module.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 12,
+          "column": 0
+        },
+        "end": {
+          "line": 12,
+          "column": 23
+        }
+      },
+      "1": {
+        "start": {
+          "line": 13,
+          "column": 36
+        },
+        "end": {
+          "line": 37,
+          "column": 4
+        }
+      },
+      "2": {
+        "start": {
+          "line": 16,
+          "column": 6
+        },
+        "end": {
+          "line": 18,
+          "column": 8
+        }
+      },
+      "3": {
+        "start": {
+          "line": 17,
+          "column": 8
+        },
+        "end": {
+          "line": 17,
+          "column": 38
+        }
+      },
+      "4": {
+        "start": {
+          "line": 21,
+          "column": 6
+        },
+        "end": {
+          "line": 24,
+          "column": 9
+        }
+      },
+      "5": {
+        "start": {
+          "line": 27,
+          "column": 6
+        },
+        "end": {
+          "line": 33,
+          "column": 9
+        }
+      },
+      "6": {
+        "start": {
+          "line": 36,
+          "column": 2
+        },
+        "end": {
+          "line": 36,
+          "column": 19
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 13,
+            "column": 37
+          },
+          "end": {
+            "line": 13,
+            "column": 38
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 43
+          },
+          "end": {
+            "line": 37,
+            "column": 1
+          }
+        },
+        "line": 13
+      },
+      "1": {
+        "name": "AppModule_Factory",
+        "decl": {
+          "start": {
+            "line": 16,
+            "column": 27
+          },
+          "end": {
+            "line": 16,
+            "column": 44
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 48
+          },
+          "end": {
+            "line": 18,
+            "column": 7
+          }
+        },
+        "line": 16
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 17,
+            "column": 20
+          },
+          "end": {
+            "line": 17,
+            "column": 34
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 17,
+              "column": 20
+            },
+            "end": {
+              "line": 17,
+              "column": 21
+            }
+          },
+          {
+            "start": {
+              "line": 17,
+              "column": 25
+            },
+            "end": {
+              "line": 17,
+              "column": 34
+            }
+          }
+        ],
+        "line": 17
+      }
+    },
+    "s": {
+      "0": 4,
+      "1": 4,
+      "2": 4,
+      "3": 4,
+      "4": 4,
+      "5": 4,
+      "6": 4
+    },
+    "f": {
+      "0": 4,
+      "1": 4
+    },
+    "b": {
+      "0": [
+        4,
+        4
+      ]
+    },
+    "inputSourceMap": {
+      "version": 3,
+      "names": [
+        "BrowserModule",
+        "AppRoutingModule",
+        "AppComponent",
+        "en_US",
+        "NZ_I18N",
+        "registerLocaleData",
+        "en",
+        "FormsModule",
+        "HttpClientModule",
+        "BrowserAnimationsModule",
+        "NonAuthenticatedModule",
+        "AppModule",
+        "bootstrap",
+        "provide",
+        "useValue",
+        "imports"
+      ],
+      "sources": [
+        "C:\\mycode\\projects\\banc\\banc-ui\\src\\app\\app.module.ts"
+      ],
+      "sourcesContent": [
+        "import {NgModule} from '@angular/core';\nimport {BrowserModule} from '@angular/platform-browser';\n\nimport {AppRoutingModule} from './app-routing.module';\nimport {AppComponent} from './app.component';\nimport {en_US, NZ_I18N} from 'ng-zorro-antd/i18n';\nimport {registerLocaleData} from '@angular/common';\nimport en from '@angular/common/locales/en';\nimport {FormsModule} from '@angular/forms';\nimport {HttpClientModule} from '@angular/common/http';\nimport {BrowserAnimationsModule} from '@angular/platform-browser/animations';\nimport {NonAuthenticatedModule} from \"./modules/non-authenticated/non-authenticated.module\";\n\nregisterLocaleData(en);\n\n@NgModule({\n  declarations: [\n    AppComponent\n  ],\n  imports: [\n    BrowserModule,\n    AppRoutingModule,\n    FormsModule,\n    HttpClientModule,\n    BrowserAnimationsModule,\n    NonAuthenticatedModule\n  ],\n  providers: [\n    { provide: NZ_I18N, useValue: en_US }\n  ],\n  bootstrap: [AppComponent]\n})\nexport class AppModule { }\n"
+      ],
+      "mappings": "AACA,SAAQA,aAAa,QAAO,2BAA2B;AAEvD,SAAQC,gBAAgB,QAAO,sBAAsB;AACrD,SAAQC,YAAY,QAAO,iBAAiB;AAC5C,SAAQC,KAAK,EAAEC,OAAO,QAAO,oBAAoB;AACjD,SAAQC,kBAAkB,QAAO,iBAAiB;AAClD,OAAOC,EAAE,MAAM,4BAA4B;AAC3C,SAAQC,WAAW,QAAO,gBAAgB;AAC1C,SAAQC,gBAAgB,QAAO,sBAAsB;AACrD,SAAQC,uBAAuB,QAAO,sCAAsC;AAC5E,SAAQC,sBAAsB,QAAO,sDAAsD;;AAE3FL,kBAAkB,CAACC,EAAE,CAAC;AAmBtB,WAAaK,SAAS;EAAhB,MAAOA,SAAS;;;yBAATA,SAAS;MAAA;IAAA;;;cAATA,SAAS;QAAAC,SAAA,GAFRV,YAAY;MAAA;IAAA;;;mBAHb,CACT;UAAEW,OAAO,EAAET,OAAO;UAAEU,QAAQ,EAAEX;QAAK,CAAE,CACtC;QAAAY,OAAA,GATCf,aAAa,EACbC,gBAAgB,EAChBM,WAAW,EACXC,gBAAgB,EAChBC,uBAAuB,EACvBC,sBAAsB;MAAA;IAAA;;SAObC,SAAS;AAAA",
+      "ignoreList": []
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "2f501c86d469f69a1e04cd56d9f7b3c8ac22fde5"
+  },
+  "C:\\mycode\\projects\\banc\\banc-ui\\src\\environments\\environment.ts": {
+    "path": "C:\\mycode\\projects\\banc\\banc-ui\\src\\environments\\environment.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 1,
+          "column": 27
+        },
+        "end": {
+          "line": 9,
+          "column": 1
+        }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": {
+      "0": 4
+    },
+    "f": {},
+    "b": {},
+    "inputSourceMap": {
+      "version": 3,
+      "names": [
+        "environment",
+        "production",
+        "apiUrl",
+        "cognito",
+        "region",
+        "userPoolId",
+        "userPoolWebClientId"
+      ],
+      "sources": [
+        "C:\\mycode\\projects\\banc\\banc-ui\\src\\environments\\environment.ts"
+      ],
+      "sourcesContent": [
+        "export const environment = {\r\n  production: false,\r\n  apiUrl: '',\r\n  cognito: {\r\n    region: 'eu-west-1',\r\n    userPoolId: 'eu-west-1_HxtzrOrG5',\r\n    userPoolWebClientId: '7cbak3d3o7g7ks36g6a957f8n7'\r\n  }\r\n};\r\n"
+      ],
+      "mappings": "AAAA,OAAO,MAAMA,WAAW,GAAG;EACzBC,UAAU,EAAE,KAAK;EACjBC,MAAM,EAAE,EAAE;EACVC,OAAO,EAAE;IACPC,MAAM,EAAE,WAAW;IACnBC,UAAU,EAAE,qBAAqB;IACjCC,mBAAmB,EAAE;;CAExB",
+      "ignoreList": []
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "5b320fe4571a33766f0e5d0a0689116adf45a4a4"
+  },
+  "C:\\mycode\\projects\\banc\\banc-ui\\src\\main.ts": {
+    "path": "C:\\mycode\\projects\\banc\\banc-ui\\src\\main.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 5,
+          "column": 0
+        },
+        "end": {
+          "line": 7,
+          "column": 3
+        }
+      },
+      "1": {
+        "start": {
+          "line": 8,
+          "column": 0
+        },
+        "end": {
+          "line": 8,
+          "column": 98
+        }
+      },
+      "2": {
+        "start": {
+          "line": 8,
+          "column": 78
+        },
+        "end": {
+          "line": 8,
+          "column": 96
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 8,
+            "column": 71
+          },
+          "end": {
+            "line": 8,
+            "column": 72
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 78
+          },
+          "end": {
+            "line": 8,
+            "column": 96
+          }
+        },
+        "line": 8
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 4,
+      "1": 4,
+      "2": 0
+    },
+    "f": {
+      "0": 0
+    },
+    "b": {},
+    "inputSourceMap": {
+      "version": 3,
+      "names": [
+        "AppModule",
+        "Amplify",
+        "environment",
+        "configure",
+        "Auth",
+        "cognito",
+        "__NgCli_bootstrap_1",
+        "platformBrowser",
+        "bootstrapModule",
+        "catch",
+        "err",
+        "console",
+        "error"
+      ],
+      "sources": [
+        "C:\\mycode\\projects\\banc\\banc-ui\\src\\main.ts"
+      ],
+      "sourcesContent": [
+        "import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';\n\nimport {AppModule} from './app/app.module';\nimport {Amplify} from \"aws-amplify\";\nimport {environment} from \"./environments/environment\";\n\nAmplify.configure({\n  Auth: environment.cognito\n})\n\nplatformBrowserDynamic().bootstrapModule(AppModule)\n  .catch(err => console.error(err));\n"
+      ],
+      "mappings": ";AAEA,SAAQA,SAAS,QAAO,kBAAkB;AAC1C,SAAQC,OAAO,QAAO,aAAa;AACnC,SAAQC,WAAW,QAAO,4BAA4B;AAEtDD,OAAO,CAACE,SAAS,CAAC;EAChBC,IAAI,EAAEF,WAAW,CAACG;CACnB,CAAC;AAEFC,mBAAA,CAAAC,eAAA,EAAwB,CAACC,eAAe,CAACR,SAAS,CAAC,CAChDS,KAAK,CAACC,GAAG,IAAIC,OAAO,CAACC,KAAK,CAACF,GAAG,CAAC,CAAC",
+      "ignoreList": []
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "1f5930b22b3acf5fa4ec4c59223d7b531dca8b52"
+  }
+}

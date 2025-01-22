@@ -1,0 +1,60 @@
+<div class="login-container">
+  <div class="login-form">
+    <form
+      nz-form
+      [formGroup]="loginForm"
+      [nzLayout]="'vertical'"
+    >
+      <h2 class="login-title">Login</h2>
+
+      <nz-form-item>
+        <nz-form-label [nzFor]="'username'" nzRequired>Username</nz-form-label>
+        <nz-form-control [nzValidateStatus]="usernameControlStatus" [nzErrorTip]="'Username is required!'"
+                         nzHasFeedback>
+          <input
+            nz-input
+            id="username"
+            type="text"
+            formControlName="email"
+            placeholder="Enter your name"
+          />
+        </nz-form-control>
+      </nz-form-item>
+
+      <nz-form-item>
+        <nz-form-label [nzFor]="'password'" nzRequired>Password</nz-form-label>
+        <nz-form-control [nzValidateStatus]="passwordControlStatus" [nzErrorTip]="'Password is required!'"
+                         nzHasFeedback>
+          <input
+            nz-input
+            id="password"
+            type="password"
+            formControlName="password"
+            placeholder="Enter your password"
+          />
+        </nz-form-control>
+      </nz-form-item>
+
+      <div class="form-actions">
+        <button
+          type="submit"
+          (click)="onSubmit()"
+          nz-button
+          nzType="primary"
+          [disabled]="loginForm.invalid && formSubmitted"
+        >Login
+        </button>
+        <button
+          (click)="logOut()"
+          nz-button
+          nzType="dashed"
+        >logout
+        </button>
+      </div>
+
+      <div class="error-message">
+        {{ errorMessage }}
+      </div>
+    </form>
+  </div>
+</div>
