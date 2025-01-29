@@ -1,12 +1,14 @@
-import {Injectable} from '@angular/core';
+import { Injectable } from '@angular/core';
 import {User} from "../../../models/user.model";
-import {Auth} from "aws-amplify";
 import {CognitoUser} from "amazon-cognito-identity-js";
+import {Auth} from "aws-amplify";
 
 @Injectable({
   providedIn: 'root'
 })
 export class CognitoService {
+
+  constructor() { }
 
   public signIn(user: User): Promise<CognitoUser> {
     return Auth.signIn(user.email, user.password);
@@ -14,9 +16,5 @@ export class CognitoService {
 
   public confirmNewPassword(user: CognitoUser, password: string): Promise<CognitoUser> {
     return Auth.completeNewPassword(user, password);
-  }
-
-  public signOut(): Promise<any> {
-    return Auth.signOut();
   }
 }

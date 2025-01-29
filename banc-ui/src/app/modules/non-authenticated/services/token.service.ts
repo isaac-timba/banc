@@ -1,30 +1,69 @@
-import { Injectable } from '@angular/core';
+import {Injectable} from '@angular/core';
+import {Auth} from "aws-amplify";
+import {jwtDecode, JwtPayload} from "jwt-decode";
+import {CognitoUser} from "amazon-cognito-identity-js";
+import {Router} from "@angular/router";
+import {StorageService} from "./storage.service";
+import {LoggedInUser} from "../../../models/user.model";
 
 @Injectable({
   providedIn: 'root'
 })
 export class TokenService {
 
-  private _accessToken: string = '';
-  private _refreshToken: string = '';
+  private accessToken!: string;
+  private tokenExpiration!: number;
 
-  setTokens(accessToken: string, refreshToken: string): void {
-    this._accessToken = accessToken;
-    this._refreshToken = refreshToken;
-    localStorage.setItem('accessToken', this._accessToken);
-    localStorage.setItem('refreshToken', this._refreshToken);
+  constructor(
+    private router: Router,
+    private storageService: StorageService
+  ) {
   }
 
-  get accessToken(): string {
-    return this._accessToken;
+  async init(): Promise<void> {
+    try {
+      const user: LoggedInUser = await this.storageService.getLoggedInUser();
+      this.accessToken = user.accessToken;
+      this.tokenExpiration = user.tokenExpiration;
+    } catch (err) {
+      console.error('Error occurred when initializing token service ', err);
+      this.logout();
+    }
   }
 
-  get refreshToken(): string {
-    return this._refreshToken;
+  getAccessToken(): string {
+    if (this.isAccessTokenExpired()) {
+      this.refreshAccessToken()
+    }
+    return this.accessToken;
   }
 
-  clearTokens(): void {
-    localStorage.removeItem('accessToken');
-    localStorage.removeItem('refreshToken');
+  isAccessTokenExpired(): boolean {
+    if (!this.accessToken) return true;
+    return Date.now() >= this.tokenExpiration;
+  }
+
+  async refreshAccessToken(): Promise<void> {
+    const session = await Auth.currentSession();
+    const currentUser: CognitoUser = await Auth.currentAuthenticatedUser();
+    this.storageService.addUser(currentUser)
+      .then(user => {
+        this.accessToken = user.accessToken;
+        this.tokenExpiration = user.tokenExpiration;
+      })
+      .catch(err => {
+        console.log('Error occurred when refreshing token ', err);
+        this.logout();
+      })
+
+  }
+
+  logout() {
+    this.router.navigate(['/login'])
+      .then(async () => {
+        await Auth.signOut();
+        await this.storageService.clear();
+        localStorage.clear();
+      });
   }
 }

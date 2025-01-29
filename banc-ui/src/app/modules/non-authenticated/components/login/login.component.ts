@@ -2,6 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import {AbstractControl, FormBuilder, FormGroup, Validators} from "@angular/forms";
 import {CognitoService} from "../../services/cognito.service";
 import {TokenService} from "../../services/token.service";
+import {StorageService} from "../../services/storage.service";
 
 @Component({
   selector: 'app-login',
@@ -17,6 +18,7 @@ export class LoginComponent implements OnInit {
     private fb: FormBuilder,
     private tokenService: TokenService,
     private cognitoService: CognitoService,
+    private storageService: StorageService,
   ) {
   }
 
@@ -55,18 +57,14 @@ export class LoginComponent implements OnInit {
         if (cognitoUser.challengeName === 'NEW_PASSWORD_REQUIRED') {
           cognitoUser = await this.cognitoService.confirmNewPassword(cognitoUser, 'Quicksilva@7');
         }
-        const accessToken: string = cognitoUser.getSignInUserSession()?.getAccessToken().getJwtToken() as string;
-        const refreshToken: string = cognitoUser.getSignInUserSession()?.getRefreshToken().getToken() as string;
-        this.tokenService.setTokens(accessToken, refreshToken);
+        await this.storageService.addUser(cognitoUser);
+        await this.tokenService.init();
       }).catch(
       () => this.errorMessage = 'Login failed. Please try again'
     );
   }
 
   logOut() {
-    this.cognitoService.signOut()
-      .then(() => {
-        this.tokenService.clearTokens();
-      });
+    this.tokenService.logout();
   }
 }

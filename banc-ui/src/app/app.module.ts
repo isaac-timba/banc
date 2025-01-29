@@ -10,6 +10,8 @@ import {FormsModule} from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {NonAuthenticatedModule} from "./modules/non-authenticated/non-authenticated.module";
+import {NgxIndexedDBModule} from "ngx-indexed-db";
+import {dbConfig} from "./data/id.db.config";
 
 registerLocaleData(en);
 
@@ -23,7 +25,8 @@ registerLocaleData(en);
     FormsModule,
     HttpClientModule,
     BrowserAnimationsModule,
-    NonAuthenticatedModule
+    NonAuthenticatedModule,
+    NgxIndexedDBModule.forRoot(dbConfig)
   ],
   providers: [
     { provide: NZ_I18N, useValue: en_US }
