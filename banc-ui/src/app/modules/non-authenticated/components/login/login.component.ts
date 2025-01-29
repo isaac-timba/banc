@@ -3,6 +3,7 @@ import {AbstractControl, FormBuilder, FormGroup, Validators} from "@angular/form
 import {CognitoService} from "../../services/cognito.service";
 import {TokenService} from "../../services/token.service";
 import {StorageService} from "../../services/storage.service";
+import {NotificationService} from "../../services/notification.service";
 
 @Component({
   selector: 'app-login',
@@ -19,6 +20,7 @@ export class LoginComponent implements OnInit {
     private tokenService: TokenService,
     private cognitoService: CognitoService,
     private storageService: StorageService,
+    private toastService: NotificationService
   ) {
   }
 
@@ -53,12 +55,12 @@ export class LoginComponent implements OnInit {
     this.formSubmitted = true;
     this.cognitoService.signIn(this.loginForm.getRawValue())
       .then(async (cognitoUser) => {
-        console.log('sign in res: ', cognitoUser);
         if (cognitoUser.challengeName === 'NEW_PASSWORD_REQUIRED') {
           cognitoUser = await this.cognitoService.confirmNewPassword(cognitoUser, 'Quicksilva@7');
         }
         await this.storageService.addUser(cognitoUser);
         await this.tokenService.init();
+        this.toastService.success('Welcome....');
       }).catch(
       () => this.errorMessage = 'Login failed. Please try again'
     );
@@ -66,5 +68,6 @@ export class LoginComponent implements OnInit {
 
   logOut() {
     this.tokenService.logout();
+    this.toastService.info('Good Bye...');
   }
 }

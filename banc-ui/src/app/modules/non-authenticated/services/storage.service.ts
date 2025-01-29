@@ -16,6 +16,7 @@ export class StorageService {
     const session = user.getSignInUserSession();
     return {
       email: session!.getIdToken().payload['email'] as string,
+      roles: session!.getIdToken().payload["cognito:groups"],
       accessToken: session!.getAccessToken().getJwtToken(),
       tokenExpiration: session!.getAccessToken().getExpiration() * 1000
     }
@@ -41,5 +42,9 @@ export class StorageService {
 
   async clear(): Promise<boolean> {
     return firstValueFrom(this.dbService.clear('user'));
+  }
+
+  async deleteDataBase(): Promise<boolean> {
+    return firstValueFrom(this.dbService.deleteDatabase());
   }
 }

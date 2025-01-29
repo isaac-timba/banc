@@ -7,6 +7,8 @@ import {NzFormModule} from "ng-zorro-antd/form";
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 import {NzInputModule} from "ng-zorro-antd/input";
 import {NzButtonModule} from "ng-zorro-antd/button";
+import {NotificationService} from "./services/notification.service";
+import {NzNotificationModule, NzNotificationService} from "ng-zorro-antd/notification";
 
 
 @NgModule({
@@ -20,7 +22,9 @@ import {NzButtonModule} from "ng-zorro-antd/button";
     FormsModule,
     ReactiveFormsModule,
     NzInputModule,
-    NzButtonModule
-  ]
+    NzButtonModule,
+    NzNotificationModule
+  ],
+  providers: [NotificationService]
 })
 export class NonAuthenticatedModule { }

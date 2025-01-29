@@ -1,6 +1,5 @@
 import {Injectable} from '@angular/core';
 import {Auth} from "aws-amplify";
-import {jwtDecode, JwtPayload} from "jwt-decode";
 import {CognitoUser} from "amazon-cognito-identity-js";
 import {Router} from "@angular/router";
 import {StorageService} from "./storage.service";
@@ -31,9 +30,9 @@ export class TokenService {
     }
   }
 
-  getAccessToken(): string {
+  async getAccessToken(): Promise<string> {
     if (this.isAccessTokenExpired()) {
-      this.refreshAccessToken()
+      await this.refreshAccessToken();
     }
     return this.accessToken;
   }
@@ -62,7 +61,7 @@ export class TokenService {
     this.router.navigate(['/login'])
       .then(async () => {
         await Auth.signOut();
-        await this.storageService.clear();
+        await this.storageService.deleteDataBase();
         localStorage.clear();
       });
   }

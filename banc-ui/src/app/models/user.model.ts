@@ -8,6 +8,7 @@ export interface User {
 export interface LoggedInUser {
   id?: string;
   email: string;
+  roles: string[];
   accessToken: string;
   tokenExpiration: number;
 }
