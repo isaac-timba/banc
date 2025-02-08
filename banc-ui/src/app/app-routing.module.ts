@@ -1,10 +1,23 @@
-import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import {NgModule} from '@angular/core';
+import {RouterModule, Routes} from '@angular/router';
 
 const routes: Routes = [
   {
-    path: '',
+    path: 'auth',
     loadChildren: () => import("./modules/non-authenticated/non-authenticated.module").then(m => m.NonAuthenticatedModule)
+  },
+  {
+    path: '',
+    redirectTo: 'auth',
+    pathMatch: 'full'
+  },
+  {
+    path: 'error',
+    loadChildren: () => import('./modules/errors/errors.module').then(m => m.ErrorsModule)
+  },
+  {
+    path: '**',
+    redirectTo: 'error'
   }
 ];
 
@@ -12,4 +25,5 @@ const routes: Routes = [
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {
+}

@@ -5,6 +5,14 @@ export interface User {
   role?: UserRole
 }
 
+export interface LoggedInUser {
+  id?: string;
+  email: string;
+  roles: string[];
+  accessToken: string;
+  tokenExpiration: number;
+}
+
 export enum UserRole {
   Admin = 'Admin',
   Customer = 'Customer',

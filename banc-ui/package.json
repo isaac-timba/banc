@@ -26,13 +26,15 @@
     "amazon-cognito-identity-js": "^6.3.14",
     "aws-amplify": "^5.3.27",
     "core-js": "^3.40.0",
+    "jwt-decode": "^4.0.0",
     "ng-zorro-antd": "^15.1.1",
+    "ngx-indexed-db": "^18.0.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.12.0"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^15.2.0",
+    "@angular-devkit/build-angular": "^15.0.0",
     "@angular/cli": "~15.2.11",
     "@angular/compiler-cli": "^15.2.0",
     "@cypress/code-coverage": "^3.13.10",

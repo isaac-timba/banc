@@ -8,15 +8,15 @@
       <h2 class="login-title">Login</h2>
 
       <nz-form-item>
-        <nz-form-label [nzFor]="'username'" nzRequired>Username</nz-form-label>
-        <nz-form-control [nzValidateStatus]="usernameControlStatus" [nzErrorTip]="'Username is required!'"
+        <nz-form-label [nzFor]="'email'" nzRequired>Email</nz-form-label>
+        <nz-form-control [nzValidateStatus]="usernameControlStatus" [nzErrorTip]="'Email is required!'"
                          nzHasFeedback>
           <input
             nz-input
-            id="username"
+            id="email"
             type="text"
             formControlName="email"
-            placeholder="Enter your name"
+            placeholder="Enter your email"
           />
         </nz-form-control>
       </nz-form-item>
@@ -50,6 +50,12 @@
           nzType="dashed"
         >logout
         </button>
+      </div>
+
+      <div class="form-actions">
+        <div class="forgot-password-link">
+          <a routerLink="/auth/forgot-password">Forgot Password?</a>
+        </div>
       </div>
 
       <div class="error-message">

@@ -9,7 +9,10 @@ import en from '@angular/common/locales/en';
 import {FormsModule} from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
-import {NonAuthenticatedModule} from "./modules/non-authenticated/non-authenticated.module";
+import {NgxIndexedDBModule} from "ngx-indexed-db";
+import {dbConfig} from "./data/id.db.config";
+import {NzSpinModule} from "ng-zorro-antd/spin";
+import {NzNotificationService} from "ng-zorro-antd/notification";
 
 registerLocaleData(en);
 
@@ -23,11 +26,14 @@ registerLocaleData(en);
     FormsModule,
     HttpClientModule,
     BrowserAnimationsModule,
-    NonAuthenticatedModule
+    NgxIndexedDBModule.forRoot(dbConfig),
+    NzSpinModule
   ],
   providers: [
-    { provide: NZ_I18N, useValue: en_US }
+    NzNotificationService,
+    {provide: NZ_I18N, useValue: en_US},
   ],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}
