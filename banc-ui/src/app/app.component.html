@@ -1,1 +1,3 @@
-<router-outlet/>
+<nz-spin nzTip="Loading..." [nzSpinning]="isLoading$ | async" nzSize="large">
+  <router-outlet/>
+</nz-spin>

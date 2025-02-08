@@ -4,6 +4,9 @@ import {CognitoUser} from "amazon-cognito-identity-js";
 import {Router} from "@angular/router";
 import {StorageService} from "./storage.service";
 import {LoggedInUser} from "../../../models/user.model";
+import {LoadingService} from "../../../shared/services/loading.service";
+import {error} from "@angular/compiler-cli/src/transformers/util";
+import {CognitoErrorService} from "./cognito-error.service";
 
 @Injectable({
   providedIn: 'root'
@@ -15,7 +18,9 @@ export class TokenService {
 
   constructor(
     private router: Router,
-    private storageService: StorageService
+    private loadingService: LoadingService,
+    private storageService: StorageService,
+    private cognitoErrorService: CognitoErrorService
   ) {
   }
 
@@ -39,12 +44,12 @@ export class TokenService {
 
   isAccessTokenExpired(): boolean {
     if (!this.accessToken) return true;
-    return Date.now() >= this.tokenExpiration;
+    return Math.floor(Date.now() / 1000) >= this.tokenExpiration;
   }
 
   async refreshAccessToken(): Promise<void> {
-    const session = await Auth.currentSession();
-    const currentUser: CognitoUser = await Auth.currentAuthenticatedUser();
+    const currentUser: CognitoUser = await Auth.currentAuthenticatedUser()
+      .catch(error => this.cognitoErrorService.handleError(error));
     this.storageService.addUser(currentUser)
       .then(user => {
         this.accessToken = user.accessToken;
@@ -58,11 +63,14 @@ export class TokenService {
   }
 
   logout() {
-    this.router.navigate(['/login'])
+    this.loadingService.show();
+    this.router.navigate(['auth/login'])
       .then(async () => {
-        await Auth.signOut();
-        await this.storageService.deleteDataBase();
+        await Auth.signOut()
+          .catch(error => this.cognitoErrorService.handleError(error));
+        await this.storageService.clear();
         localStorage.clear();
-      });
+      })
+      .finally(() => this.loadingService.hide());
   }
 }

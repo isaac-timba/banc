@@ -10,11 +10,19 @@ export class CognitoService {
 
   constructor() { }
 
-  public signIn(user: User): Promise<CognitoUser> {
+  signIn(user: User): Promise<CognitoUser> {
     return Auth.signIn(user.email, user.password);
   }
 
-  public confirmNewPassword(user: CognitoUser, password: string): Promise<CognitoUser> {
+  confirmNewPassword(user: CognitoUser, password: string): Promise<CognitoUser> {
     return Auth.completeNewPassword(user, password);
+  }
+
+  forgotPassword(username: string): Promise<void> {
+    return Auth.forgotPassword(username);
+  }
+
+  resetPassword(username: string, code: string, newPassword: string): Promise<string> {
+    return Auth.forgotPasswordSubmit(username, code, newPassword);
   }
 }

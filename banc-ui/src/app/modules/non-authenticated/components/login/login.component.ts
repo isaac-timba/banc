@@ -4,6 +4,8 @@ import {CognitoService} from "../../services/cognito.service";
 import {TokenService} from "../../services/token.service";
 import {StorageService} from "../../services/storage.service";
 import {NotificationService} from "../../services/notification.service";
+import {LoadingService} from "../../../../shared/services/loading.service";
+import {CognitoErrorService} from "../../services/cognito-error.service";
 
 @Component({
   selector: 'app-login',
@@ -18,9 +20,11 @@ export class LoginComponent implements OnInit {
   constructor(
     private fb: FormBuilder,
     private tokenService: TokenService,
+    private loadingService: LoadingService,
     private cognitoService: CognitoService,
     private storageService: StorageService,
-    private toastService: NotificationService
+    private toastService: NotificationService,
+    private cognitoErrorService: CognitoErrorService
   ) {
   }
 
@@ -52,6 +56,7 @@ export class LoginComponent implements OnInit {
   }
 
   onSubmit() {
+    this.loadingService.show();
     this.formSubmitted = true;
     this.cognitoService.signIn(this.loginForm.getRawValue())
       .then(async (cognitoUser) => {
@@ -61,9 +66,9 @@ export class LoginComponent implements OnInit {
         await this.storageService.addUser(cognitoUser);
         await this.tokenService.init();
         this.toastService.success('Welcome....');
-      }).catch(
-      () => this.errorMessage = 'Login failed. Please try again'
-    );
+      })
+      .catch(error => this.cognitoErrorService.handleError(error))
+      .finally(() => this.loadingService.hide());
   }
 
   logOut() {
